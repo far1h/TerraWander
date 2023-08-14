@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		421C42C32A8A0EAF005FB2A7 /* AppTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */; };
 		91287EEE2A87336000539FA2 /* TerraWanderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287EED2A87336000539FA2 /* TerraWanderApp.swift */; };
 		91287EF02A87336000539FA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287EEF2A87336000539FA2 /* ContentView.swift */; };
 		91287EF22A87336100539FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91287EF12A87336100539FA2 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTutorial.swift; sourceTree = "<group>"; };
 		91287EEA2A87336000539FA2 /* TerraWander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraWander.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91287EED2A87336000539FA2 /* TerraWanderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraWanderApp.swift; sourceTree = "<group>"; };
 		91287EEF2A87336000539FA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				91287EED2A87336000539FA2 /* TerraWanderApp.swift */,
 				91287EEF2A87336000539FA2 /* ContentView.swift */,
 				91F9CB402A888DC800FA3DB9 /* SettingsView.swift */,
+				421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */,
 				91287EF12A87336100539FA2 /* Assets.xcassets */,
 				91287EF32A87336100539FA2 /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91F9CB412A888DC800FA3DB9 /* SettingsView.swift in Sources */,
+				421C42C32A8A0EAF005FB2A7 /* AppTutorial.swift in Sources */,
 				91287EF02A87336000539FA2 /* ContentView.swift in Sources */,
 				91287EEE2A87336000539FA2 /* TerraWanderApp.swift in Sources */,
 			);
