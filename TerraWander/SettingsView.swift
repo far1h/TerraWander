@@ -8,22 +8,45 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @State private var isToggleOn = false
+    @State private var selectedOption = 0 // Use optional type
+    @State private var selectedOption2 = 0 // Use optional type
     var body: some View {
-        GeometryReader{ geo in
-            ZStack{
-                Image("setting")
-                    .resizable()
-                    .edgesIgnoringSafeArea(.all)
-                    .frame(width: geo.size.width, height: geo.size.height, alignment: .center)
-                    .opacity(1.0)
-                Text("Settings")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
+        ZStack {
+            Rectangle()
+              .foregroundColor(.clear)
+              .frame(width: 844, height: 390)
+              .background(
+                Image("bg landscape")
+                  .resizable()
+                  .aspectRatio(contentMode: .fill)
+              )
+            VStack {
                 Spacer()
                 
+                HStack {
+                    Picker("Location", selection: $selectedOption) {
+                        Text("Select Location").tag(0) // Placeholder
+                        Text("Waterfall").tag(1)
+                        Text("Rainforest").tag(2)
+                        Text("Mountain").tag(3)
+                    }
+                    .pickerStyle(.menu) // Use menu picker style
+                    .labelsHidden() // Hide labels
+                    
+                    
+                    
+                }
+                
+                Spacer()
+                
+                Button("Start") {
+                    // Perform action when button is clicked
+                }
+                .buttonStyle(.bordered)
+                .font(.title3)
+                
             }
-            
         }
     }
 }
@@ -31,5 +54,6 @@ struct SettingsView: View {
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsView()
+            .previewInterfaceOrientation(.landscapeLeft)
     }
 }
