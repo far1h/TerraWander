@@ -12,46 +12,15 @@ struct home1: View {
         ZStack {
             Rectangle()
               .foregroundColor(.clear)
-              .frame(width: 390, height: 844)
+              .frame(width: 844, height: 390)
               .background(
                 Image("pemandangan")
                   .resizable()
                   .aspectRatio(contentMode: .fill)
-                  .frame(width: 400, height: 900)
+                  .frame(width: 900, height: 500)
                   .clipped()
                 
-              )
-            
-            VStack{
-                HStack{
-                    ZStack{
-                        Rectangle()
-                          .foregroundColor(.clear)
-                          .frame(width: 40, height: 32)
-                          .background(Color(red: 0.22, green: 0.53, blue: 0.66))
-                          .cornerRadius(5)
-                        
-                        Image(systemName:"list.triangle")
-                            .foregroundColor(.white)
-                    
-                    }
-                   Spacer()
-                }
-                Spacer()
-            }
-            .padding(.top, 50)
-            .padding(.leading, 20)
-            
-            Rectangle()
-              .foregroundColor(.clear)
-              .frame(width: 196, height: 213)
-              .background(
-                Image("vrgogglr")
-                  .resizable()
-                  .aspectRatio(contentMode: .fill)
-                  .frame(width: 196, height: 213)
-                  .clipped()
-              )
+             )
         }
         .frame(width: 390, height: 844)
         .background(.white)
@@ -61,5 +30,7 @@ struct home1: View {
 struct home1_Previews: PreviewProvider {
     static var previews: some View {
         home1()
+            .previewInterfaceOrientation(.landscapeLeft)
     }
 }
+    
