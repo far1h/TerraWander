@@ -55,6 +55,7 @@ struct AppTutorial: View {
                         ToolbarItem(placement: .principal) { // <3>
                             VStack {
                                 Text("App Tutorial").font(.title2).fontWeight(.bold)
+                            
                             }
                         }
                     }
