@@ -35,11 +35,11 @@ struct SettingsView: View {
                     .clipShape(Capsule())
                     .padding()
                     Spacer()
-                    Picker("Location", selection: $selectedOption) {
+                    Picker("Location", selection: $selectedOption2) {
                         Text("Select Music").tag(0) // Placeholder
-                        Text("Waterfall").tag(1)
-                        Text("Rainforest").tag(2)
-                        Text("Mountain").tag(3)
+                        Text("Taylor Swift - August").tag(1)
+                        Text("Drake - Marvins Room").tag(2)
+                        Text("Coldplay - Yellow").tag(3)
                     }
                     .background(Color.white)
                     .clipShape(Capsule())
