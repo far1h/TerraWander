@@ -23,7 +23,7 @@ struct SettingsView: View {
               )
             VStack {
                 Spacer()
-                
+                    .padding(10)
                 HStack {
                     Picker("Location", selection: $selectedOption) {
                         Text("Select Location").tag(0) // Placeholder
@@ -45,26 +45,28 @@ struct SettingsView: View {
                     .clipShape(Capsule())
                     .padding()
                     
+                    
                 }.padding(100)
                 
                 Spacer()
                 
-                Button("Start") {
+                Button("START") {
                     // Perform action when button is clicked
                 }
                 .buttonStyle(.bordered)
                 .foregroundStyle(.white)
-                .font(.title3)
+                .font(.largeTitle)
                 .background(Color.red)
                 .clipShape(Capsule())
-                .padding()
-
+                .padding(30)
+                Spacer()
                 
             }
         }.background(
             Image("bg landscape")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
+
         )
     }
 }
