@@ -13,17 +13,20 @@ struct home1: View {
             Rectangle()
               .foregroundColor(.clear)
               .frame(width: 844, height: 390)
-              .background(
-                Image("pemandangan")
-                  .resizable()
-                  .aspectRatio(contentMode: .fill)
-                  .frame(width: 900, height: 500)
-                  .clipped()
-                
-             )
-        }
-        .frame(width: 390, height: 844)
-        .background(.white)
+//              .background(
+//                Image("pemandangan")
+//                  .resizable()
+//                  .aspectRatio(contentMode: .fill)
+//                  .frame(width: 900, height: 500)
+//                  .clipped()
+//
+//             )
+//            bikin manual button dan image VR
+        }.background(
+            Image("bg landscape")
+                .resizable()
+                .edgesIgnoringSafeArea(.all)
+        )
     }
 }
 
