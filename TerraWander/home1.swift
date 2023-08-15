@@ -13,6 +13,11 @@ struct home1: View {
             Rectangle()
               .foregroundColor(.clear)
               .frame(width: 844, height: 390)
+              .background(
+                Image("bg landscape")
+                  .resizable()
+                  .aspectRatio(contentMode: .fill)
+              )
 //              .background(
 //                Image("pemandangan")
 //                  .resizable()
@@ -22,6 +27,7 @@ struct home1: View {
 //
 //             )
 //            bikin manual button dan image VR
+            
         }.background(
             Image("bg landscape")
                 .resizable()
