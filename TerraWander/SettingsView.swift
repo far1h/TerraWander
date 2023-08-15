@@ -31,12 +31,21 @@ struct SettingsView: View {
                         Text("Rainforest").tag(2)
                         Text("Mountain").tag(3)
                     }
-                    .pickerStyle(.menu) // Use menu picker style
-                    .labelsHidden() // Hide labels
+                    .background(Color.white)
+                    .clipShape(Capsule())
+                    .padding()
+                    Spacer()
+                    Picker("Location", selection: $selectedOption) {
+                        Text("Select Music").tag(0) // Placeholder
+                        Text("Waterfall").tag(1)
+                        Text("Rainforest").tag(2)
+                        Text("Mountain").tag(3)
+                    }
+                    .background(Color.white)
+                    .clipShape(Capsule())
+                    .padding()
                     
-                    
-                    
-                }
+                }.padding(100)
                 
                 Spacer()
                 
@@ -44,10 +53,19 @@ struct SettingsView: View {
                     // Perform action when button is clicked
                 }
                 .buttonStyle(.bordered)
+                .foregroundStyle(.white)
                 .font(.title3)
+                .background(Color.red)
+                .clipShape(Capsule())
+                .padding()
+
                 
             }
-        }
+        }.background(
+            Image("bg landscape")
+                .resizable()
+                .edgesIgnoringSafeArea(.all)
+        )
     }
 }
 
