@@ -12,15 +12,25 @@ struct PickLocView: View {
     var body: some View {
         ZStack {
             Rectangle()
-              .foregroundColor(.clear)
-              .frame(width: 844, height: 390)
-              .background(
-                Image("backhitam")
-                  .resizable()
-                  .aspectRatio(contentMode: .fill)
-          )
-           
-           
+                .foregroundColor(.clear)
+                .frame(width: 844, height: 390)
+                .background(
+                    Image("backhitam")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                )
+            
+          
+            
+            VStack(alignment: .trailing) {
+                Image(systemName: "headphones.circle")
+                    .imageScale(.large)
+                    .foregroundColor(.white)
+                    .frame(width: 26, height: 14)
+                
+                .padding()
+                .padding()
+                
                 VStack {
                     Spacer()
                     
@@ -47,7 +57,7 @@ struct PickLocView: View {
                                             .weight(.bold)
                                     )
                                     .foregroundColor(.white)
-                             
+                                
                             }
                             
                             VStack {
@@ -72,7 +82,7 @@ struct PickLocView: View {
                                             .weight(.bold)
                                     )
                                     .foregroundColor(.white)
-                               
+                                
                             }
                             
                             VStack {
@@ -96,7 +106,7 @@ struct PickLocView: View {
                                             .weight(.bold)
                                     )
                                     .foregroundColor(.white)
-                              
+                                
                             }
                             
                             VStack {
@@ -113,7 +123,7 @@ struct PickLocView: View {
                                     .cornerRadius(5)
                                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                                .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
+                                    .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                 
                                 Text("Mountain")
                                     .font(
@@ -121,7 +131,7 @@ struct PickLocView: View {
                                             .weight(.bold)
                                     )
                                     .foregroundColor(.white)
-                           
+                                
                             }
                             
                             VStack {
@@ -145,7 +155,7 @@ struct PickLocView: View {
                                             .weight(.bold)
                                     )
                                     .foregroundColor(.white)
-                             
+                                
                             }
                             
                         }
@@ -162,6 +172,7 @@ struct PickLocView: View {
                     .clipShape(Capsule())
                     
                 }
+            }
             
             
         } .background(
@@ -169,7 +180,7 @@ struct PickLocView: View {
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
         )
-
+        
         
     }
 }

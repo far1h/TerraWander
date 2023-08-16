@@ -19,11 +19,18 @@ struct PickMusView: View {
                   .resizable()
                   .aspectRatio(contentMode: .fill)
           )
-           
-           
+            VStack(alignment: .trailing) {
+                Image(systemName: "globe.central.south.asia.fill")
+                    .imageScale(.large)
+                    .foregroundColor(.white)
+                    .frame(width: 26, height: 14)
+                
+                    .padding()
+                    .padding()
+                
+                
                 VStack {
                     Spacer()
-                    
                     ScrollView (.horizontal) {
                         HStack {
                             VStack {
@@ -122,7 +129,7 @@ struct PickMusView: View {
                                     .cornerRadius(5)
                                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                                .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
+                                    .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                 
                                 Text("Always")
                                     .font(
@@ -167,6 +174,7 @@ struct PickMusView: View {
                         
                     }
                     
+                    
                     Button("FINISH") {
                         // Perform action when button is clicked
                     }
@@ -177,6 +185,8 @@ struct PickMusView: View {
                     .clipShape(Capsule())
                     
                 }
+                
+            }
             
             
         } .background(
