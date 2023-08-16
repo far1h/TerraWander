@@ -54,19 +54,38 @@ struct home1: View {
                         .foregroundColor(.white)
                 }
                 
+                VStack(alignment: .center, spacing: 3.86705) {
+                    NavigationLink(destination: SettingsView()) {
+                        Text("Do Something")
+                    }
+                }
                 .padding(.horizontal, 10.31214)
                 .padding(.vertical, 7.7341)
-                .frame(width: 110, height: 33, alignment: .center)
+                .frame(width: 265, height: 33, alignment: .center)
                 
-                .background(Color(red: 0.22, green: 0.53, blue: 0.66))
+                .background(Color(red: 0.85, green: 0.25, blue: 0))
                 .cornerRadius(8)
                 .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                 .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                .position(x:430, y:320)
+                .position(x:430, y:277)
                 
+                
+                //            Button {
+                //
+                //                .padding(.horizontal, 10.31214)
+                //                .padding(.vertical, 7.7341)
+                //                .frame(width: 110, height: 33, alignment: .center)
+                //
+                //                .background(Color(red: 0.22, green: 0.53, blue: 0.66))
+                //                .cornerRadius(8)
+                //                .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
+                //                .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
+                //                .position(x:430, y:320)
+                //
+                //
+                //            }
                 
             }
-            
         }
     }
 }
