@@ -17,6 +17,7 @@
 		91287F092A87336100539FA2 /* TerraWanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287F082A87336100539FA2 /* TerraWanderUITests.swift */; };
 		91287F0B2A87336100539FA2 /* TerraWanderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287F0A2A87336100539FA2 /* TerraWanderUITestsLaunchTests.swift */; };
 		91F9CB412A888DC800FA3DB9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F9CB402A888DC800FA3DB9 /* SettingsView.swift */; };
+		CB0851A02A8B6A3500B73672 /* Bmi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB08519F2A8B6A3500B73672 /* Bmi.swift */; };
 		CB40726D2A8A442F009A30F5 /* home1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40726C2A8A442F009A30F5 /* home1.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		91287F082A87336100539FA2 /* TerraWanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraWanderUITests.swift; sourceTree = "<group>"; };
 		91287F0A2A87336100539FA2 /* TerraWanderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraWanderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		91F9CB402A888DC800FA3DB9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CB08519F2A8B6A3500B73672 /* Bmi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bmi.swift; sourceTree = "<group>"; };
 		CB40726C2A8A442F009A30F5 /* home1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				91287EED2A87336000539FA2 /* TerraWanderApp.swift */,
 				CB40726C2A8A442F009A30F5 /* home1.swift */,
 				91287EEF2A87336000539FA2 /* ContentView.swift */,
+				CB08519F2A8B6A3500B73672 /* Bmi.swift */,
 				91F9CB402A888DC800FA3DB9 /* SettingsView.swift */,
 				421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */,
 				91287EF12A87336100539FA2 /* Assets.xcassets */,
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0851A02A8B6A3500B73672 /* Bmi.swift in Sources */,
 				91F9CB412A888DC800FA3DB9 /* SettingsView.swift in Sources */,
 				CB40726D2A8A442F009A30F5 /* home1.swift in Sources */,
 				84F2DC7D2A8CCFDB00D5B7F2 /* MenuVR.swift in Sources */,
