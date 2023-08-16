@@ -21,12 +21,9 @@ struct home1: View {
             
             
             VStack(alignment: .center, spacing: 3.86705) {
-                Button {
-                    
-                } label: {
-                    Text("START YOUR EXPERIENCE")
-                        .foregroundColor(.white)
-                }
+                NavigationLink(destination: SettingsView()) {
+                                    Text("Do Something")
+                                }
             }
             .padding(.horizontal, 10.31214)
             .padding(.vertical, 7.7341)

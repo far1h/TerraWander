@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TutorView: View {
+struct AppTutorial: View {
     var body: some View {
         ZStack {
             Rectangle()
@@ -163,9 +163,9 @@ struct TutorView: View {
     }
 }
 
-struct TutorView_Previews: PreviewProvider {
+struct AppTutorial_Previews: PreviewProvider {
     static var previews: some View {
-        TutorView()
+        AppTutorial()
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }
