@@ -11,6 +11,15 @@ struct viewVR: View {
     var body: some View {
         NavigationStack {
             ZStack{
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 844, height: 390)
+                    .background(
+                        Image("beach")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                    )
+                
                 VStack  {
                     HStack {
                         NavigationLink (destination: viewVR()){
