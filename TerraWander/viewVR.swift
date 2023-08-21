@@ -13,50 +13,37 @@ struct viewVR: View {
         
         NavigationStack {
             ZStack{
-                Rectangle()
-                  .foregroundColor(.clear)
-                  .frame(width: 844, height: 390)
-                  .background(
-                    Image("view")
-                      .resizable()
-                      .aspectRatio(contentMode: .fill)
-                  )
-            
                 VStack  {
                     HStack {
-                        
-                        Image(systemName: "headphones.circle")
-                            .imageScale(.large)
-                            .foregroundColor(.white)
-                            .frame(width: 100, height: 90)
-                            .position(x:760, y:70)
-                        
-                        Image(systemName:"globe.central.south.asia.fill")
-                            .imageScale(.large)
-                            .foregroundColor(.white)
-                            .position(x:380, y:71)
-                        
+                        NavigationLink(destination: PickMusView()) {
+                            Image(systemName: "headphones.circle")
+                                .imageScale(.large)
+                                .foregroundColor(.white)
+                                .frame(width: 100, height: 90)
+                                .position(x:760, y:70)
+                        }
+                        Spacer()
+                        NavigationLink(destination: PickLocView()) {
+                            Image(systemName:"globe.central.south.asia.fill")
+                                .imageScale(.large)
+                                .foregroundColor(.white)
+                                .position(x:380, y:71)
+                        }.padding()
                     }
                                         
-                                
-                    VStack{
-                        Spacer()
-                        Button("FINISH") {
-                            // Perform action when button is clicked
-                        }
-                        .buttonStyle(.bordered)
-                        .foregroundStyle(.white)
-                        .font(.custom("SF Pro", size: 25))
-                        .background(Color(red: 0.31, green: 0.6, blue: 0.72))
-                    .clipShape(Capsule())
-                
+                    NavigationLink(destination: ReportView()) {
+                        Text("FINISH")
+                            .foregroundColor(.white)
+                            .font(.custom("SF Pro", size: 25))
+                            .background(Color(red: 0.31, green: 0.6, blue: 0.72))
+                            .clipShape(Capsule())
+                            .padding(30)
                     }
-                    
                 }
                 
                 
                 } .background(
-                    Image("view")
+                    Image("beach")
                         .resizable()
                         .edgesIgnoringSafeArea(.all)
             )
