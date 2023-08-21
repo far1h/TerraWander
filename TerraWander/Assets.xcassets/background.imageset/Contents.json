@@ -1,11 +1,7 @@
 {
   "images" : [
     {
-<<<<<<< Updated upstream
-      "filename" : "daniel.png",
-=======
-      "filename" : "daniel.jpeg",
->>>>>>> Stashed changes
+      "filename" : "background.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },

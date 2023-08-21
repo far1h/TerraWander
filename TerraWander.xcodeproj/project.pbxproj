@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream
 		421C42C32A8A0EAF005FB2A7 /* AppTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */; };
-<<<<<<< HEAD
-		84297F232A8F62C500BF4482 /* trytry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84297F222A8F62C500BF4482 /* trytry.swift */; };
-		84F2DC7D2A8CCFDB00D5B7F2 /* MenuVR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2DC7C2A8CCFDB00D5B7F2 /* MenuVR.swift */; };
-=======
 		7802871F2A8B5C2C00498A55 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802871E2A8B5C2C00498A55 /* ReportView.swift */; };
 		780287232A8B709500498A55 /* PickMusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780287222A8B709500498A55 /* PickMusView.swift */; };
 		780287252A8B71ED00498A55 /* PickLocView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780287242A8B71ED00498A55 /* PickLocView.swift */; };
 		785F1CB52A8F5AE30093B997 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785F1CB42A8F5AE30093B997 /* HomeView.swift */; };
 		78C045502A8BD72D000E3A7E /* TutorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C0454F2A8BD72D000E3A7E /* TutorView.swift */; };
 		78C045522A8CBBCD000E3A7E /* viewVR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C045512A8CBBCD000E3A7E /* viewVR.swift */; };
->>>>>>> dc12c40eb7b71a1067496bdfab5fa873a7dfbbbe
+=======
+		780287152A8A100100498A55 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780287142A8A100100498A55 /* LocationView.swift */; };
+		780287172A8A653300498A55 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780287162A8A653300498A55 /* ReportView.swift */; };
+		780287192A8A7C9400498A55 /* PickLocView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780287182A8A7C9400498A55 /* PickLocView.swift */; };
+		7802871B2A8A8CCA00498A55 /* PickMusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802871A2A8A8CCA00498A55 /* PickMusView.swift */; };
+		7802871D2A8A93BE00498A55 /* VRmenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802871C2A8A93BE00498A55 /* VRmenuView.swift */; };
+>>>>>>> Stashed changes
 		91287EEE2A87336000539FA2 /* TerraWanderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287EED2A87336000539FA2 /* TerraWanderApp.swift */; };
 		91287EF02A87336000539FA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287EEF2A87336000539FA2 /* ContentView.swift */; };
 		91287EF22A87336100539FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91287EF12A87336100539FA2 /* Assets.xcassets */; };
@@ -48,18 +51,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
 		421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTutorial.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		84297F222A8F62C500BF4482 /* trytry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trytry.swift; sourceTree = "<group>"; };
-		84F2DC7C2A8CCFDB00D5B7F2 /* MenuVR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVR.swift; sourceTree = "<group>"; };
-=======
 		7802871E2A8B5C2C00498A55 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
 		780287222A8B709500498A55 /* PickMusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickMusView.swift; sourceTree = "<group>"; };
 		780287242A8B71ED00498A55 /* PickLocView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickLocView.swift; sourceTree = "<group>"; };
 		785F1CB42A8F5AE30093B997 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		78C0454F2A8BD72D000E3A7E /* TutorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorView.swift; sourceTree = "<group>"; };
 		78C045512A8CBBCD000E3A7E /* viewVR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewVR.swift; sourceTree = "<group>"; };
->>>>>>> dc12c40eb7b71a1067496bdfab5fa873a7dfbbbe
+=======
+		780287142A8A100100498A55 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		780287162A8A653300498A55 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		780287182A8A7C9400498A55 /* PickLocView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickLocView.swift; sourceTree = "<group>"; };
+		7802871A2A8A8CCA00498A55 /* PickMusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickMusView.swift; sourceTree = "<group>"; };
+		7802871C2A8A93BE00498A55 /* VRmenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRmenuView.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		91287EEA2A87336000539FA2 /* TerraWander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraWander.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91287EED2A87336000539FA2 /* TerraWanderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraWanderApp.swift; sourceTree = "<group>"; };
 		91287EEF2A87336000539FA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -129,17 +135,20 @@
 				421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */,
 				91287EF12A87336100539FA2 /* Assets.xcassets */,
 				91287EF32A87336100539FA2 /* Preview Content */,
-<<<<<<< HEAD
-				84F2DC7C2A8CCFDB00D5B7F2 /* MenuVR.swift */,
-				84297F222A8F62C500BF4482 /* trytry.swift */,
-=======
+<<<<<<< Updated upstream
 				7802871E2A8B5C2C00498A55 /* ReportView.swift */,
 				780287222A8B709500498A55 /* PickMusView.swift */,
 				780287242A8B71ED00498A55 /* PickLocView.swift */,
 				78C0454F2A8BD72D000E3A7E /* TutorView.swift */,
 				78C045512A8CBBCD000E3A7E /* viewVR.swift */,
 				785F1CB42A8F5AE30093B997 /* HomeView.swift */,
->>>>>>> dc12c40eb7b71a1067496bdfab5fa873a7dfbbbe
+=======
+				780287142A8A100100498A55 /* LocationView.swift */,
+				780287162A8A653300498A55 /* ReportView.swift */,
+				780287182A8A7C9400498A55 /* PickLocView.swift */,
+				7802871A2A8A8CCA00498A55 /* PickMusView.swift */,
+				7802871C2A8A93BE00498A55 /* VRmenuView.swift */,
+>>>>>>> Stashed changes
 			);
 			path = TerraWander;
 			sourceTree = "<group>";
@@ -299,21 +308,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				780287192A8A7C9400498A55 /* PickLocView.swift in Sources */,
 				91F9CB412A888DC800FA3DB9 /* SettingsView.swift in Sources */,
+<<<<<<< Updated upstream
 				CB40726D2A8A442F009A30F5 /* home1.swift in Sources */,
 				78C045522A8CBBCD000E3A7E /* viewVR.swift in Sources */,
 				7802871F2A8B5C2C00498A55 /* ReportView.swift in Sources */,
 				421C42C32A8A0EAF005FB2A7 /* AppTutorial.swift in Sources */,
-<<<<<<< HEAD
-				84297F232A8F62C500BF4482 /* trytry.swift in Sources */,
-=======
 				785F1CB52A8F5AE30093B997 /* HomeView.swift in Sources */,
 				78C045502A8BD72D000E3A7E /* TutorView.swift in Sources */,
 				780287252A8B71ED00498A55 /* PickLocView.swift in Sources */,
->>>>>>> dc12c40eb7b71a1067496bdfab5fa873a7dfbbbe
+=======
+				780287152A8A100100498A55 /* LocationView.swift in Sources */,
+				7802871D2A8A93BE00498A55 /* VRmenuView.swift in Sources */,
+>>>>>>> Stashed changes
 				91287EF02A87336000539FA2 /* ContentView.swift in Sources */,
+				780287172A8A653300498A55 /* ReportView.swift in Sources */,
 				91287EEE2A87336000539FA2 /* TerraWanderApp.swift in Sources */,
+<<<<<<< Updated upstream
 				780287232A8B709500498A55 /* PickMusView.swift in Sources */,
+=======
+				7802871B2A8A8CCA00498A55 /* PickMusView.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,14 +488,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TerraWander/Preview Content\"";
-				DEVELOPMENT_TEAM = A4Q27M86R9;
+				DEVELOPMENT_TEAM = Y5Y2G7UJ92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,14 +516,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TerraWander/Preview Content\"";
-				DEVELOPMENT_TEAM = A4Q27M86R9;
+				DEVELOPMENT_TEAM = Y5Y2G7UJ92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
