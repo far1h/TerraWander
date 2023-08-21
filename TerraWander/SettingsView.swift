@@ -51,14 +51,16 @@ struct SettingsView: View {
                     
                     Spacer()
                     
-                    NavigationLink(destination: MenuVR()) {
-                        Text("START")
-                            .font(.largeTitle)
-                            .foregroundColor(.white)
-                            .background(Color.red)
-                            .clipShape(Capsule())
-                            .padding(30)
+                    Button("START") {
+                        // Perform action when button is clicked
                     }
+                    .buttonStyle(.bordered)
+                    .foregroundStyle(.white)
+                    .font(.custom("SF Pro", size: 25))
+                    .background(.red)
+                    .clipShape(Capsule())
+                    .padding(30)
+                    
                     Spacer()
                     
                 }
@@ -68,6 +70,14 @@ struct SettingsView: View {
                     .edgesIgnoringSafeArea(.all)
 
             )
+            
+            NavigationLink {
+                // destination view to navigation to
+                viewVR()
+            } label: {
+                Text("START")
+                    .foregroundColor(.white)
+            }
         }
     }
 }
