@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		421C42C32A8A0EAF005FB2A7 /* AppTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */; };
+		84297F232A8F62C500BF4482 /* trytry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84297F222A8F62C500BF4482 /* trytry.swift */; };
 		84F2DC7D2A8CCFDB00D5B7F2 /* MenuVR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2DC7C2A8CCFDB00D5B7F2 /* MenuVR.swift */; };
 		91287EEE2A87336000539FA2 /* TerraWanderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287EED2A87336000539FA2 /* TerraWanderApp.swift */; };
 		91287EF02A87336000539FA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287EEF2A87336000539FA2 /* ContentView.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTutorial.swift; sourceTree = "<group>"; };
+		84297F222A8F62C500BF4482 /* trytry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trytry.swift; sourceTree = "<group>"; };
 		84F2DC7C2A8CCFDB00D5B7F2 /* MenuVR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVR.swift; sourceTree = "<group>"; };
 		91287EEA2A87336000539FA2 /* TerraWander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraWander.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91287EED2A87336000539FA2 /* TerraWanderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraWanderApp.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				91287EF12A87336100539FA2 /* Assets.xcassets */,
 				91287EF32A87336100539FA2 /* Preview Content */,
 				84F2DC7C2A8CCFDB00D5B7F2 /* MenuVR.swift */,
+				84297F222A8F62C500BF4482 /* trytry.swift */,
 			);
 			path = TerraWander;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				CB40726D2A8A442F009A30F5 /* home1.swift in Sources */,
 				84F2DC7D2A8CCFDB00D5B7F2 /* MenuVR.swift in Sources */,
 				421C42C32A8A0EAF005FB2A7 /* AppTutorial.swift in Sources */,
+				84297F232A8F62C500BF4482 /* trytry.swift in Sources */,
 				91287EF02A87336000539FA2 /* ContentView.swift in Sources */,
 				91287EEE2A87336000539FA2 /* TerraWanderApp.swift in Sources */,
 			);
