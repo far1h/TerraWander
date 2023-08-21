@@ -1,4 +1,4 @@
-//
+
 //  SettingsView.swift
 //  TerraWander
 //
@@ -14,14 +14,6 @@ struct SettingsView: View {
     var body: some View {
         NavigationStack{
             ZStack {
-                Rectangle()
-                  .foregroundColor(.clear)
-                  .frame(width: 844, height: 390)
-                  .background(
-                    Image("bg landscape")
-                      .resizable()
-                      .aspectRatio(contentMode: .fill)
-                  )
                 VStack {
                     Spacer()
                         .padding(10)
@@ -51,15 +43,14 @@ struct SettingsView: View {
                     
                     Spacer()
                     
-
+                    NavigationLink(destination: viewVR()) {
+                        Text("START")
+                            .font(.largeTitle)
+                            .foregroundColor(.white)
+                            .background(Color.red)
+                            .clipShape(Capsule())
+                            .padding(30)
                     }
-                    .buttonStyle(.bordered)
-                    .foregroundStyle(.white)
-                    .font(.custom("SF Pro", size: 25))
-                    .background(.red)
-                    .clipShape(Capsule())
-                    .padding(30)
-                    
                     Spacer()
                     
                 }
@@ -69,17 +60,9 @@ struct SettingsView: View {
                     .edgesIgnoringSafeArea(.all)
 
             )
-            
-            NavigationLink {
-                // destination view to navigation to
-                viewVR()
-            } label: {
-                Text("START")
-                    .foregroundColor(.white)
-            }
         }
     }
-
+}
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
