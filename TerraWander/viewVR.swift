@@ -12,25 +12,21 @@ struct viewVR: View {
     var body: some View {
         
         NavigationStack {
-            ZStack{
-                VStack  {
+                VStack {
                     HStack {
+                        Spacer()
                         NavigationLink(destination: PickMusView()) {
                             Image(systemName: "headphones.circle")
                                 .imageScale(.large)
                                 .foregroundColor(.white)
-                                .frame(width: 100, height: 90)
-                                .position(x:760, y:70)
                         }
-                        Spacer()
                         NavigationLink(destination: PickLocView()) {
                             Image(systemName:"globe.central.south.asia.fill")
                                 .imageScale(.large)
                                 .foregroundColor(.white)
-                                .position(x:380, y:71)
-                        }.padding()
+                        }
                     }
-                                        
+                    Spacer()
                     NavigationLink(destination: ReportView()) {
                         Text("FINISH")
                             .foregroundColor(.white)
@@ -39,17 +35,12 @@ struct viewVR: View {
                             .clipShape(Capsule())
                             .padding(30)
                     }
-                }
-                
-                
-                } .background(
+                }.background(
                     Image("beach")
                         .resizable()
                         .edgesIgnoringSafeArea(.all)
             )
         }
-        
-        
     }
 }
 

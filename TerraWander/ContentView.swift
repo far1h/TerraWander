@@ -60,7 +60,7 @@ struct ContentView: View {
                 .position(x:430, y:320)
             }
 
-        }
+        }.navigationBarBackButtonHidden()
         
             }
 }
