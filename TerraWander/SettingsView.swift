@@ -51,8 +51,7 @@ struct SettingsView: View {
                     
                     Spacer()
                     
-                    Button("START") {
-                        // Perform action when button is clicked
+
                     }
                     .buttonStyle(.bordered)
                     .foregroundStyle(.white)
@@ -80,7 +79,7 @@ struct SettingsView: View {
             }
         }
     }
-}
+
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
