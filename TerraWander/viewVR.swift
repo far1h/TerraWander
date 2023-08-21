@@ -1,60 +1,68 @@
+
 //
-//  viewVR.swift
+//  MenuVR.swift
 //  TerraWander
 //
-//  Created by vaneina ayeisha on 16/08/23.
+//  Created by amalia on 16/08/23.
 //
 
 import SwiftUI
 
 struct viewVR: View {
     var body: some View {
-        ZStack {
-            Rectangle()
-                .foregroundColor(.clear)
-                .frame(width: 844, height: 390)
-                .background(
-                    Image("beach")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-            )
+        
+        NavigationStack {
+            ZStack{
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 844, height: 390)
+                  .background(
+                    Image("view")
+                      .resizable()
+                      .aspectRatio(contentMode: .fill)
+                  )
             
-                
-            VStack (alignment: .trailing){
-                
-                HStack {
-                    Image(systemName: "headphones.circle")
-                        .imageScale(.large)
-                        .foregroundColor(.white)
-                    .frame(width: 26, height: 14)
-                    
-                    Image(systemName: "globe.central.south.asia.fill")
-                        .imageScale(.large)
-                        .foregroundColor(.white)
-                        .frame(width: 26, height: 14)
-                }
-                
-                VStack {
-                    Spacer()
-                        .padding(100)
-                        .padding()
-                        .padding()
+                VStack  {
+                    HStack {
                         
-                    Button("FINISH") {
-                        // Perform action when button is clicked
+                        Image(systemName: "headphones.circle")
+                            .imageScale(.large)
+                            .foregroundColor(.white)
+                            .frame(width: 100, height: 90)
+                            .position(x:760, y:70)
+                        
+                        Image(systemName:"globe.central.south.asia.fill")
+                            .imageScale(.large)
+                            .foregroundColor(.white)
+                            .position(x:380, y:71)
+                        
                     }
-                    .buttonStyle(.bordered)
-                    .foregroundStyle(.white)
-                    .font(.custom("SF Pro", size: 18))
-                    .background(Color(red: 0.31, green: 0.6, blue: 0.72))
-                .clipShape(Capsule())
+                                        
+                                
+                    VStack{
+                        Spacer()
+                        Button("FINISH") {
+                            // Perform action when button is clicked
+                        }
+                        .buttonStyle(.bordered)
+                        .foregroundStyle(.white)
+                        .font(.custom("SF Pro", size: 25))
+                        .background(Color(red: 0.31, green: 0.6, blue: 0.72))
+                    .clipShape(Capsule())
+                
+                    }
+                    
                 }
                 
                 
-                
-            } 
-            
+                } .background(
+                    Image("view")
+                        .resizable()
+                        .edgesIgnoringSafeArea(.all)
+            )
         }
+        
+        
     }
 }
 
@@ -64,3 +72,4 @@ struct viewVR_Previews: PreviewProvider {
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }
+
