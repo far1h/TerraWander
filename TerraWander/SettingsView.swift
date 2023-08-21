@@ -1,4 +1,4 @@
-//
+
 //  SettingsView.swift
 //  TerraWander
 //
@@ -14,14 +14,6 @@ struct SettingsView: View {
     var body: some View {
         NavigationStack{
             ZStack {
-                Rectangle()
-                  .foregroundColor(.clear)
-                  .frame(width: 844, height: 390)
-                  .background(
-                    Image("bg landscape")
-                      .resizable()
-                      .aspectRatio(contentMode: .fill)
-                  )
                 VStack {
                     Spacer()
                         .padding(10)
