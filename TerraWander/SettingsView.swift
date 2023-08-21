@@ -1,4 +1,4 @@
-//
+
 //  SettingsView.swift
 //  TerraWander
 //
@@ -12,62 +12,55 @@ struct SettingsView: View {
     @State private var selectedOption = 0 // Use optional type
     @State private var selectedOption2 = 0 // Use optional type
     var body: some View {
-        ZStack {
-            Rectangle()
-              .foregroundColor(.clear)
-              .frame(width: 844, height: 390)
-              .background(
-                Image("bg landscape")
-                  .resizable()
-                  .aspectRatio(contentMode: .fill)
-              )
-            VStack {
-                Spacer()
-                    .padding(10)
-                HStack {
-                    Picker("Location", selection: $selectedOption) {
-                        Text("Select Location").tag(0) // Placeholder
-                        Text("Waterfall").tag(1)
-                        Text("Rainforest").tag(2)
-                        Text("Mountain").tag(3)
-                    }
-                    .background(Color.white)
-                    .clipShape(Capsule())
-                    .padding()
+        NavigationStack{
+            ZStack {
+                VStack {
                     Spacer()
-                    Picker("Location", selection: $selectedOption2) {
-                        Text("Select Music").tag(0) // Placeholder
-                        Text("Taylor Swift - August").tag(1)
-                        Text("Drake - Marvins Room").tag(2)
-                        Text("Coldplay - Yellow").tag(3)
+                        .padding(10)
+                    HStack {
+                        Picker("Location", selection: $selectedOption) {
+                            Text("Select Location").tag(0) // Placeholder
+                            Text("Waterfall").tag(1)
+                            Text("Rainforest").tag(2)
+                            Text("Mountain").tag(3)
+                        }
+                        .background(Color.white)
+                        .clipShape(Capsule())
+                        .padding()
+                        Spacer()
+                        Picker("Location", selection: $selectedOption2) {
+                            Text("Select Music").tag(0) // Placeholder
+                            Text("Taylor Swift - August").tag(1)
+                            Text("Drake - Marvins Room").tag(2)
+                            Text("Coldplay - Yellow").tag(3)
+                        }
+                        .background(Color.white)
+                        .clipShape(Capsule())
+                        .padding()
+                        
+                        
+                    }.padding(100)
+                    
+                    Spacer()
+                    
+                    NavigationLink(destination: viewVR()) {
+                        Text("START")
+                            .font(.largeTitle)
+                            .foregroundColor(.white)
+                            .background(Color.red)
+                            .clipShape(Capsule())
+                            .padding(30)
                     }
-                    .background(Color.white)
-                    .clipShape(Capsule())
-                    .padding()
+                    Spacer()
                     
-                    
-                }.padding(100)
-                
-                Spacer()
-                
-                Button("START") {
-                    // Perform action when button is clicked
                 }
-                .buttonStyle(.bordered)
-                .foregroundStyle(.white)
-                .font(.largeTitle)
-                .background(Color.red)
-                .clipShape(Capsule())
-                .padding(30)
-                Spacer()
-                
-            }
-        }.background(
-            Image("bg landscape")
-                .resizable()
-                .edgesIgnoringSafeArea(.all)
+            }.background(
+                Image("bg landscape")
+                    .resizable()
+                    .edgesIgnoringSafeArea(.all)
 
-        )
+            )
+        }
     }
 }
 

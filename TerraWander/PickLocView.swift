@@ -20,8 +20,6 @@ struct PickLocView: View {
                         .aspectRatio(contentMode: .fill)
                 )
             
-          
-            
             VStack(alignment: .trailing) {
                 Image(systemName: "headphones.circle")
                     .imageScale(.large)

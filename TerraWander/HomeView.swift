@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  TerraWander
 //
-//  Created by Farih Muhammad on 12/08/2023.
+//  Created by vaneina ayeisha on 18/08/23.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
         NavigationStack{
             ZStack {
@@ -29,6 +29,8 @@ struct ContentView: View {
                         Text("START YOUR EXPERIENCE!")
                             .foregroundColor(.white)
                     }
+                    
+                    
                 }
                 .padding(.horizontal, 10.31214)
                 .padding(.vertical, 7.7341)
@@ -58,16 +60,28 @@ struct ContentView: View {
                 .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                 .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                 .position(x:430, y:320)
+                
+                NavigationLink {
+                    // destination view to navigation to
+                    viewVR()
+                } label: {
+                    Text("START")
+                        .foregroundColor(.white)
+                }
+                
+                
             }
+            
+            
 
         }
         
-            }
+    }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView()
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }
