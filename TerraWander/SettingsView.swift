@@ -51,7 +51,7 @@ struct SettingsView: View {
                     
                     Spacer()
                     
-                    NavigationLink(destination: MenuVR()) {
+                    NavigationLink(destination: viewVR()) {
                         Text("START")
                             .font(.largeTitle)
                             .foregroundColor(.white)
