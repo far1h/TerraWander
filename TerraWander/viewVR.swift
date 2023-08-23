@@ -26,6 +26,7 @@ struct viewVR: View {
                                 .foregroundColor(.white)
                         }
                     }
+                    .padding()
                     Spacer()
                     NavigationLink(destination: ReportPick()) {
                         Text("FINISH")
