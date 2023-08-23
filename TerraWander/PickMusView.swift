@@ -135,16 +135,6 @@ struct PickMusView: View {
                             }
                         }
 
-                        
-                        Button("FINISH") {
-                            // Perform action when button is clicked
-                        }
-                        .buttonStyle(.bordered)
-                        .foregroundStyle(Color(red: 0.31, green: 0.6, blue: 0.72))
-                        .font(.custom("SF Pro", size: 18))
-                        .background(.white)
-                        .clipShape(Capsule())
-
                         NavigationLink(destination: viewVR()) {
                             Text("DONE")
                                 .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))
