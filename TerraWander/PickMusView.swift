@@ -9,17 +9,16 @@
 import SwiftUI
 import AVFoundation
 
-
 struct PickMusView: View {
     @State private var audioPlayer: AVAudioPlayer?
     @ObservedObject var audioManager = AudioManager.shared
-    
+
     let audioURLs: [URL] = [
         Bundle.main.url(forResource: "cool_with_you", withExtension: "mp3")!,
         Bundle.main.url(forResource: "cruelsummer", withExtension: "mp3")!,
         Bundle.main.url(forResource: "best_part", withExtension: "mp3")!
     ]
-    
+
     var body: some View {
         NavigationStack {
             ZStack {
@@ -33,7 +32,7 @@ struct PickMusView: View {
                     )
                 VStack(alignment: .trailing) {
                     NavigationLink(destination: PickLocView()) {
-                        Image(systemName:"globe.central.south.asia.fill")
+                        Image(systemName: "globe.central.south.asia.fill")
                             .imageScale(.large)
                             .foregroundColor(.white)
                     }.padding()
@@ -57,6 +56,7 @@ struct PickMusView: View {
                                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                         .onTapGesture {
+                                            stopAudio()
                                             playAudio(url: audioURLs[0])
                                         }
                                     
@@ -89,6 +89,7 @@ struct PickMusView: View {
                                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                         .onTapGesture {
+                                            stopAudio()
                                             playAudio(url: audioURLs[1])
                                         }
                                     
@@ -120,6 +121,7 @@ struct PickMusView: View {
                                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                         .onTapGesture {
+                                            stopAudio()
                                             playAudio(url: audioURLs[2])
                                         }
                                     
@@ -141,20 +143,16 @@ struct PickMusView: View {
                         NavigationLink(destination: viewVR()) {
                             Text("DONE")
                                 .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))
-                            //                            .font(.custom("SF Pro", size: 25))
                                 .bold()
                         }
-                    
-                    .padding(.horizontal, 10.31214)
-                    .padding(.vertical, 7.7341)
-                    .frame(width: 110, height: 33, alignment: .center)
-
-                    .background(.white)
-                    .cornerRadius(8)
-                    .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                    .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
+                        .padding(.horizontal, 10.31214)
+                        .padding(.vertical, 7.7341)
+                        .frame(width: 110, height: 33, alignment: .center)
+                        .background(.white)
+                        .cornerRadius(8)
+                        .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
+                        .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                         Spacer()
-
                     }
                 }
             }
@@ -163,9 +161,9 @@ struct PickMusView: View {
                     .resizable()
                     .edgesIgnoringSafeArea(.all)
             )
-        }
+        }.navigationBarBackButtonHidden()
     }
-    
+
     func playAudio(url: URL) {
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url)
@@ -173,6 +171,11 @@ struct PickMusView: View {
         } catch {
             print("Error playing audio: \(error)")
         }
+    }
+
+    func stopAudio() {
+        audioPlayer?.stop()
+        audioPlayer = nil
     }
 }
 struct PickMusView_Previews: PreviewProvider {
