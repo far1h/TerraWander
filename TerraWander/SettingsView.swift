@@ -56,6 +56,7 @@ struct SettingsView: View {
                     } label: {
                         Text("START")
                             .foregroundColor(.white)
+                            .bold()
                     }
                     
                     .padding(.horizontal, 10.31214)

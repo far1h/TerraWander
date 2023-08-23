@@ -37,6 +37,7 @@ struct ContentView: View {
                         } label: {
                             Text("START YOUR EXPERIENCE!")
                                 .foregroundColor(.white)
+                                .bold()
                         }
                         .padding(.horizontal, 10.31214)
                         .padding(.vertical, 7.7341)
@@ -51,14 +52,15 @@ struct ContentView: View {
                             AppTutorial()
                         } label: {
                             Text("TUTORIAL")
-                                .foregroundColor(.white)
+                                .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))
+                                .bold()
                         }
                         
                         .padding(.horizontal, 10.31214)
                         .padding(.vertical, 7.7341)
                         .frame(width: 110, height: 33, alignment: .center)
 
-                        .background(Color(red: 0.22, green: 0.53, blue: 0.66))
+                        .background(.white)
                         .cornerRadius(8)
                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
