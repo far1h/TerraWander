@@ -52,11 +52,14 @@ struct SettingsView: View {
                     Spacer()
                     
                     NavigationLink(destination: viewVR()) {
-                        Text("START")
-                            .font(.largeTitle)
-                            .foregroundColor(.white)
-                            .background(Color.red)
-                            .clipShape(Capsule())
+                        Button("START") {
+                            // Perform action when button is clicked
+                        }
+                        .buttonStyle(.bordered)
+                        .foregroundStyle(.white)
+                        .font(.custom("SF Pro", size: 25))
+                        .background(.red)
+                        .clipShape(Capsule())
                             .padding(30)
                     }
                     Spacer()

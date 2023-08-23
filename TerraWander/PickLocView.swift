@@ -23,7 +23,7 @@ struct PickLocView: View {
                 
                 VStack(alignment: .trailing) {
                     NavigationLink(destination: PickMusView()) {
-                        Image(systemName: "headphones.circle")
+                        Image(systemName: "headphones")
                             .imageScale(.large)
                             .foregroundColor(.white)
                     }.padding()

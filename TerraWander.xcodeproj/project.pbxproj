@@ -11,6 +11,8 @@
 		7802871F2A8B5C2C00498A55 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802871E2A8B5C2C00498A55 /* ReportView.swift */; };
 		780287232A8B709500498A55 /* PickMusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780287222A8B709500498A55 /* PickMusView.swift */; };
 		780287252A8B71ED00498A55 /* PickLocView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780287242A8B71ED00498A55 /* PickLocView.swift */; };
+		785F1CB92A94C79A0093B997 /* VRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785F1CB82A94C79A0093B997 /* VRView.swift */; };
+		785F1CBB2A95DAB30093B997 /* ReportPick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785F1CBA2A95DAB30093B997 /* ReportPick.swift */; };
 		78C045502A8BD72D000E3A7E /* TutorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C0454F2A8BD72D000E3A7E /* TutorView.swift */; };
 		78C045522A8CBBCD000E3A7E /* viewVR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C045512A8CBBCD000E3A7E /* viewVR.swift */; };
 		91287EEE2A87336000539FA2 /* TerraWanderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287EED2A87336000539FA2 /* TerraWanderApp.swift */; };
@@ -46,6 +48,8 @@
 		7802871E2A8B5C2C00498A55 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
 		780287222A8B709500498A55 /* PickMusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickMusView.swift; sourceTree = "<group>"; };
 		780287242A8B71ED00498A55 /* PickLocView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickLocView.swift; sourceTree = "<group>"; };
+		785F1CB82A94C79A0093B997 /* VRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRView.swift; sourceTree = "<group>"; };
+		785F1CBA2A95DAB30093B997 /* ReportPick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportPick.swift; sourceTree = "<group>"; };
 		78C0454F2A8BD72D000E3A7E /* TutorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorView.swift; sourceTree = "<group>"; };
 		78C045512A8CBBCD000E3A7E /* viewVR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewVR.swift; sourceTree = "<group>"; };
 		91287EEA2A87336000539FA2 /* TerraWander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraWander.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +126,8 @@
 				780287242A8B71ED00498A55 /* PickLocView.swift */,
 				78C0454F2A8BD72D000E3A7E /* TutorView.swift */,
 				78C045512A8CBBCD000E3A7E /* viewVR.swift */,
+				785F1CB82A94C79A0093B997 /* VRView.swift */,
+				785F1CBA2A95DAB30093B997 /* ReportPick.swift */,
 			);
 			path = TerraWander;
 			sourceTree = "<group>";
@@ -283,6 +289,7 @@
 			files = (
 				91F9CB412A888DC800FA3DB9 /* SettingsView.swift in Sources */,
 				CB40726D2A8A442F009A30F5 /* home1.swift in Sources */,
+				785F1CBB2A95DAB30093B997 /* ReportPick.swift in Sources */,
 				78C045522A8CBBCD000E3A7E /* viewVR.swift in Sources */,
 				7802871F2A8B5C2C00498A55 /* ReportView.swift in Sources */,
 				421C42C32A8A0EAF005FB2A7 /* AppTutorial.swift in Sources */,
@@ -291,6 +298,7 @@
 				91287EF02A87336000539FA2 /* ContentView.swift in Sources */,
 				91287EEE2A87336000539FA2 /* TerraWanderApp.swift in Sources */,
 				780287232A8B709500498A55 /* PickMusView.swift in Sources */,
+				785F1CB92A94C79A0093B997 /* VRView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
