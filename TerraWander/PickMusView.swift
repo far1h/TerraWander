@@ -178,9 +178,9 @@ struct PickMusView: View {
                             // Perform action when button is clicked
                         }
                         .buttonStyle(.bordered)
-                        .foregroundStyle(.white)
+                        .foregroundStyle(Color(red: 0.31, green: 0.6, blue: 0.72))
                         .font(.custom("SF Pro", size: 18))
-                        .background(Color(red: 0.31, green: 0.6, blue: 0.72))
+                        .background(.white)
                         .clipShape(Capsule())
                         
                     }
