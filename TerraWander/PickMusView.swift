@@ -134,7 +134,7 @@ struct PickMusView: View {
                                 }
                             }
                         }
-
+                        Spacer()
                         NavigationLink(destination: viewVR()) {
                             Text("DONE")
                                 .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))
@@ -150,7 +150,6 @@ struct PickMusView: View {
                     .cornerRadius(8)
                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                        Spacer()
 
                     }
                 }
