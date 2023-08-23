@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		421C42C32A8A0EAF005FB2A7 /* AppTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */; };
-		42A720EB2A9609F6001143B0 /* cool_with_you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 42A720EA2A9609F6001143B0 /* cool_with_you.mp3 */; };
-		42A720ED2A960A1B001143B0 /* cruelsummer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 42A720EC2A960A1B001143B0 /* cruelsummer.mp3 */; };
-		42A720EF2A960EC3001143B0 /* best_part.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 42A720EE2A960EC3001143B0 /* best_part.mp3 */; };
 		42A720F12A96100F001143B0 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A720F02A96100F001143B0 /* ObservableObject.swift */; };
 		7802871F2A8B5C2C00498A55 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802871E2A8B5C2C00498A55 /* ReportView.swift */; };
 		780287232A8B709500498A55 /* PickMusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780287222A8B709500498A55 /* PickMusView.swift */; };
@@ -49,9 +46,6 @@
 
 /* Begin PBXFileReference section */
 		421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTutorial.swift; sourceTree = "<group>"; };
-		42A720EA2A9609F6001143B0 /* cool_with_you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cool_with_you.mp3; path = "../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/cool_with_you.mp3"; sourceTree = "<group>"; };
-		42A720EC2A960A1B001143B0 /* cruelsummer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cruelsummer.mp3; path = ../../../../Downloads/cruelsummer.mp3; sourceTree = "<group>"; };
-		42A720EE2A960EC3001143B0 /* best_part.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = best_part.mp3; path = ../../../../Downloads/best_part.mp3; sourceTree = "<group>"; };
 		42A720F02A96100F001143B0 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
 		7802871E2A8B5C2C00498A55 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
 		780287222A8B709500498A55 /* PickMusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickMusView.swift; sourceTree = "<group>"; };
@@ -128,9 +122,6 @@
 				91F9CB402A888DC800FA3DB9 /* SettingsView.swift */,
 				421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */,
 				42A720F02A96100F001143B0 /* ObservableObject.swift */,
-				42A720EA2A9609F6001143B0 /* cool_with_you.mp3 */,
-				42A720EC2A960A1B001143B0 /* cruelsummer.mp3 */,
-				42A720EE2A960EC3001143B0 /* best_part.mp3 */,
 				91287EF12A87336100539FA2 /* Assets.xcassets */,
 				91287EF32A87336100539FA2 /* Preview Content */,
 				7802871E2A8B5C2C00498A55 /* ReportView.swift */,
@@ -273,10 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42A720EB2A9609F6001143B0 /* cool_with_you.mp3 in Resources */,
-				42A720ED2A960A1B001143B0 /* cruelsummer.mp3 in Resources */,
 				91287EF52A87336100539FA2 /* Preview Assets.xcassets in Resources */,
-				42A720EF2A960EC3001143B0 /* best_part.mp3 in Resources */,
 				91287EF22A87336100539FA2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
