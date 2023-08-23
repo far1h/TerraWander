@@ -114,7 +114,7 @@ struct ReportPick: View {
                     .edgesIgnoringSafeArea(.all)
 
         )
-        }
+        }.navigationBarBackButtonHidden()
         
         
         

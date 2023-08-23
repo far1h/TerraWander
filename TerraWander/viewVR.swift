@@ -47,7 +47,7 @@ struct viewVR: View {
                         .resizable()
                         .edgesIgnoringSafeArea(.all)
             )
-        }
+        }.navigationBarBackButtonHidden()
     }
 }
 
