@@ -24,13 +24,12 @@ struct SettingsView: View {
                   )
                 VStack {
                     Spacer()
-                        .padding(10)
                     HStack {
                         Picker("Location", selection: $selectedOption) {
                             Text("Select Location").tag(0) // Placeholder
-                            Text("Waterfall").tag(1)
-                            Text("Rainforest").tag(2)
-                            Text("Mountain").tag(3)
+                            Text("Beach").tag(1)
+//                            Text("Rainforest").tag(2)
+//                            Text("Mountain").tag(3)
                         }
                         .background(Color.white)
                         .clipShape(Capsule())
@@ -38,9 +37,10 @@ struct SettingsView: View {
                         Spacer()
                         Picker("Location", selection: $selectedOption2) {
                             Text("Select Music").tag(0) // Placeholder
-                            Text("Taylor Swift - August").tag(1)
-                            Text("Drake - Marvins Room").tag(2)
-                            Text("Coldplay - Yellow").tag(3)
+                            Text("None").tag(1)
+                            Text("Taylor Swift - August").tag(2)
+                            Text("Drake - Marvins Room").tag(3)
+                            Text("Coldplay - Yellow").tag(4)
                         }
                         .background(Color.white)
                         .clipShape(Capsule())
@@ -50,21 +50,30 @@ struct SettingsView: View {
                     }.padding(100)
                     
                     Spacer()
-                    
-                    NavigationLink(destination: viewVR()) {
-                        Button("START") {
-                            // Perform action when button is clicked
-                        }
-                        .buttonStyle(.bordered)
-                        .foregroundStyle(.white)
-                        .font(.custom("SF Pro", size: 25))
-                        .background(.red)
-                        .clipShape(Capsule())
-                            .padding(30)
+                    NavigationLink {
+                        // destination view to navigation to
+                        viewVR()
+                    } label: {
+                        Text("START")
+                            .foregroundColor(.white)
                     }
+                    
+                    .padding(.horizontal, 10.31214)
+                    .padding(.vertical, 7.7341)
+                    .frame(width: 110, height: 33, alignment: .center)
+
+                    .background(Color(red: 0.85, green: 0.25, blue: 0))
+                    .cornerRadius(8)
+                    .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
+                    .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                     Spacer()
                     
                 }
+                
+                
+                
+                
+               
             }.background(
                 Image("bg landscape")
                     .resizable()
