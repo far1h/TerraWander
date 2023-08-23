@@ -20,6 +20,7 @@ struct viewVR: View {
                                 .imageScale(.large)
                                 .foregroundColor(.white)
                         }
+                        .padding()
                         NavigationLink(destination: PickLocView()) {
                             Image(systemName:"globe.central.south.asia.fill")
                                 .imageScale(.large)
