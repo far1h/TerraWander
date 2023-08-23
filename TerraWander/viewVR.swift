@@ -16,7 +16,7 @@ struct viewVR: View {
                     HStack {
                         Spacer()
                         NavigationLink(destination: PickMusView()) {
-                            Image(systemName: "headphones.circle")
+                            Image(systemName: "headphones")
                                 .imageScale(.large)
                                 .foregroundColor(.white)
                         }
@@ -29,15 +29,16 @@ struct viewVR: View {
                     Spacer()
                     NavigationLink(destination: ReportPick()) {
                         Text("FINISH")
-                            .foregroundColor(.white)
-                            .font(.custom("SF Pro", size: 25))
+                            .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))
+//                            .font(.custom("SF Pro", size: 25))
+                            .bold()
                             
                     }
                     .padding(.horizontal, 10.31214)
                     .padding(.vertical, 7.7341)
                     .frame(width: 110, height: 33, alignment: .center)
 
-                    .background(Color(red: 0.22, green: 0.53, blue: 0.66))
+                    .background(.white)
                     .cornerRadius(8)
                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)

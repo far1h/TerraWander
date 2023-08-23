@@ -134,6 +134,7 @@ struct PickMusView: View {
                                 }
                             }
                         }
+
                         
                         Button("FINISH") {
                             // Perform action when button is clicked
@@ -143,6 +144,24 @@ struct PickMusView: View {
                         .font(.custom("SF Pro", size: 18))
                         .background(.white)
                         .clipShape(Capsule())
+
+                        NavigationLink(destination: viewVR()) {
+                            Text("DONE")
+                                .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))
+                            //                            .font(.custom("SF Pro", size: 25))
+                                .bold()
+                        }
+                    
+                    .padding(.horizontal, 10.31214)
+                    .padding(.vertical, 7.7341)
+                    .frame(width: 110, height: 33, alignment: .center)
+
+                    .background(.white)
+                    .cornerRadius(8)
+                    .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
+                    .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
+                        
+
                     }
                 }
             }
