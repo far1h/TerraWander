@@ -6,8 +6,6 @@
 //
 
 import SwiftUI
-
-
 @main
 struct TerraWanderApp: App {
     var body: some Scene {
