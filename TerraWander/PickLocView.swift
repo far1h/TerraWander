@@ -183,7 +183,7 @@ struct PickLocView: View {
                     .resizable()
                     .edgesIgnoringSafeArea(.all)
         )
-        }
+        }.navigationBarBackButtonHidden()
         
         
     }
