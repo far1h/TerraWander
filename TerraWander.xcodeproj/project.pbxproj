@@ -25,6 +25,9 @@
 		91287F0B2A87336100539FA2 /* TerraWanderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287F0A2A87336100539FA2 /* TerraWanderUITestsLaunchTests.swift */; };
 		91F9CB412A888DC800FA3DB9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F9CB402A888DC800FA3DB9 /* SettingsView.swift */; };
 		CB40726D2A8A442F009A30F5 /* home1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40726C2A8A442F009A30F5 /* home1.swift */; };
+		CBEE67DE2A964078009F9670 /* forest in Resources */ = {isa = PBXBuildFile; fileRef = CBEE67DD2A964078009F9670 /* forest */; };
+		CBEE67E02A9640A6009F9670 /* shark in Resources */ = {isa = PBXBuildFile; fileRef = CBEE67DF2A9640A6009F9670 /* shark */; };
+		CBEE67E22A9642B4009F9670 /* waterfall in Resources */ = {isa = PBXBuildFile; fileRef = CBEE67E12A9642B3009F9670 /* waterfall */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,9 @@
 		91287F0A2A87336100539FA2 /* TerraWanderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraWanderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		91F9CB402A888DC800FA3DB9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CB40726C2A8A442F009A30F5 /* home1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home1.swift; sourceTree = "<group>"; };
+		CBEE67DD2A964078009F9670 /* forest */ = {isa = PBXFileReference; lastKnownFileType = folder; path = forest; sourceTree = "<group>"; };
+		CBEE67DF2A9640A6009F9670 /* shark */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shark; sourceTree = "<group>"; };
+		CBEE67E12A9642B3009F9670 /* waterfall */ = {isa = PBXFileReference; lastKnownFileType = folder; path = waterfall; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 		91287EE12A87336000539FA2 = {
 			isa = PBXGroup;
 			children = (
+				CBEE67E12A9642B3009F9670 /* waterfall */,
+				CBEE67DF2A9640A6009F9670 /* shark */,
+				CBEE67DD2A964078009F9670 /* forest */,
 				91287EEC2A87336000539FA2 /* TerraWander */,
 				91287EFD2A87336100539FA2 /* TerraWanderTests */,
 				91287F072A87336100539FA2 /* TerraWanderUITests */,
@@ -264,7 +273,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEE67DE2A964078009F9670 /* forest in Resources */,
+				CBEE67E22A9642B4009F9670 /* waterfall in Resources */,
 				91287EF52A87336100539FA2 /* Preview Assets.xcassets in Resources */,
+				CBEE67E02A9640A6009F9670 /* shark in Resources */,
 				91287EF22A87336100539FA2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
