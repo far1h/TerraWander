@@ -28,8 +28,8 @@ struct SettingsView: View {
                         Picker("Location", selection: $selectedOption) {
                             Text("Select Location").tag(0) // Placeholder
                             Text("Beach").tag(1)
-//                            Text("Rainforest").tag(2)
-//                            Text("Mountain").tag(3)
+                            Text("Rainforest").tag(2)
+                            Text("Mountain").tag(3)
                         }
                         .background(Color.white)
                         .clipShape(Capsule())
