@@ -6,9 +6,10 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct ReportView: View {
-    @EnvironmentObject var audioManager: AudioManager // Add this line
+    @ObservedObject var audioManager = AudioManager.shared
     
     var body: some View {
         ZStack {
@@ -100,27 +101,25 @@ struct ReportView: View {
                         .clipShape(Capsule())
                         
                     }
-                    
                 }
-                
-            } .background(
+            }
+            .background(
                 Image("bg landscape")
                     .resizable()
                     .edgesIgnoringSafeArea(.all)
-                
             )
-            
-            
-        }
-        
-        
-    }
-    
-    
-    struct ReportView_Previews: PreviewProvider {
-        static var previews: some View {
-            ReportView()
-                .previewInterfaceOrientation(.landscapeLeft)
+            .onAppear {
+                audioManager.stopAudio() // Stop audio when the view appears
+            }
         }
     }
 }
+
+
+struct ReportView_Previews: PreviewProvider {
+    static var previews: some View {
+        ReportView()
+            .previewInterfaceOrientation(.landscapeLeft)
+    }
+}
+

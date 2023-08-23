@@ -11,11 +11,22 @@ import AVFoundation
 class AudioManager: ObservableObject {
     static let shared = AudioManager()
 
+    fileprivate init(){
+        
+    }
     private var audioPlayer: AVAudioPlayer?
 
     var isPlaying: Bool {
-        audioPlayer?.isPlaying ?? false
-    }
+           audioPlayer?.isPlaying ?? false
+       }
+       
+       var currentTime: TimeInterval {
+           audioPlayer?.currentTime ?? 0
+       }
+       
+       var audioDuration: TimeInterval {
+           audioPlayer?.duration ?? 0
+       }
 
     func playAudio(from url: URL) {
         do {
@@ -34,5 +45,7 @@ class AudioManager: ObservableObject {
 
     func stopAudio() {
         audioPlayer?.stop()
+        audioPlayer = nil
+        objectWillChange.send()
     }
 }

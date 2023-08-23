@@ -133,8 +133,20 @@ struct PickMusView: View {
                                         .foregroundColor(.white)
                                 }
                             }
+                            Spacer()
+                            Button(action: {
+                                                    if audioManager.isPlaying {
+                                                        audioManager.pauseAudio()
+                                                    } else {
+                                                        audioManager.playAudio(from: audioURLs[0])
+                                                    }
+                                                }) {
+                                                    Image(systemName: audioManager.isPlaying ? "pause.circle" : "play.circle")
+                                                        .font(.system(size: 20))
+                                                        .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))
+                                                }
+                                                
                         }
-                        Spacer()
                         NavigationLink(destination: viewVR()) {
                             Text("DONE")
                                 .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))

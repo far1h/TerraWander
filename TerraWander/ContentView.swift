@@ -52,7 +52,7 @@ struct ContentView: View {
                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                         NavigationLink {
                             // destination view to navigation to
-                            TutorView()
+                            AppTutorial()
                         } label: {
                             Text("TUTORIAL")
                                 .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))

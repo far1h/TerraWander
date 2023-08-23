@@ -11,6 +11,9 @@ struct ReportPick: View {
     @State private var showAlert = false
     @State private var showAlert1 = false
     @State private var showAlert2 = false
+    
+    @ObservedObject var audioManager = AudioManager.shared // Add this line
+    
     var body: some View {
         NavigationStack {
             ZStack {
@@ -22,7 +25,7 @@ struct ReportPick: View {
                     
                         .foregroundColor(.white)
                         .padding(10)
-                        
+                    
                     HStack {
                         Spacer()
                         Button(action: {
@@ -45,7 +48,7 @@ struct ReportPick: View {
                             )
                         }
                         
-                       
+                        
                         Button(action: {
                             // Action to perform when the button is tapped
                             print("Emoticon button tapped")
@@ -58,14 +61,14 @@ struct ReportPick: View {
                         
                         
                         .alert(isPresented: $showAlert1) {
-                           
+                            
                             Alert(
                                 title: Text("Dear (Name),"),
                                 message: Text("\nI trust this message finds you in good health. I wanted to take a moment to reach out and inquire about your encounters with nature healing as a method to alleviate stress. It's wonderful that you've chosen to prioritize self-care in this way, and I appreciate your openness in sharing your thoughts.\n\n Here are some insights and suggestions to consider as you continue along this journey:\n\n* Embrace Neutrality:Feeling neutral doesn't necessarily indicate a negative response. It could signify that you're discovering a sense of balance or tranquility. Taking time to delve into this state could be quite rewarding.\n\n* Deepen Your Connection: If you're seeking more profound experiences, consider delving into different facets of nature that resonate with you.\n\nI'm here to provide support on this path!\n\nBest regards,OurWelfare"),
                                 
                                 dismissButton: .default(Text("DONE"))
                             )
-                                
+                            
                         }
                         
                         Button(action: {
@@ -78,7 +81,7 @@ struct ReportPick: View {
                         }
                         
                         
-                
+                        
                         .alert(isPresented: $showAlert2) {
                             Alert(
                                 title: Text("Dear (Name),"),
@@ -93,11 +96,11 @@ struct ReportPick: View {
                     Spacer()
                     NavigationLink(destination: ContentView()) {
                         Text("HOME")
-        
-                            
+                        
+                        
                     }
                     .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))
-//                    .font(.custom("SF Pro", size: 25))
+                    //                    .font(.custom("SF Pro", size: 25))
                     .bold()
                     .frame(width: 110, height: 33, alignment: .center)
                     .background(.white)
@@ -106,29 +109,25 @@ struct ReportPick: View {
                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                     .padding()
                 }
-               
+                
                 
             } .background(
                 Image("bg landscape")
                     .resizable()
                     .edgesIgnoringSafeArea(.all)
-
-        )
-        }.navigationBarBackButtonHidden()
-        
-        
-        
-        
-        
-        
+                
+            )
+            .navigationBarBackButtonHidden()
+            .onAppear {
+                audioManager.stopAudio() // Stop audio when the view appears
+            }
+        }
     }
-        
-        
-    }
- 
-struct ReportPick_Previews: PreviewProvider {
-    static var previews: some View {
-        ReportPick()
-            .previewInterfaceOrientation(.landscapeLeft)
+    
+    struct ReportPick_Previews: PreviewProvider {
+        static var previews: some View {
+            ReportPick()
+                .previewInterfaceOrientation(.landscapeLeft)
+        }
     }
 }

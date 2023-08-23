@@ -123,14 +123,14 @@
 				421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */,
 				42A720F02A96100F001143B0 /* AudioManager.swift */,
 				91287EF12A87336100539FA2 /* Assets.xcassets */,
-				91287EF32A87336100539FA2 /* Preview Content */,
-				7802871E2A8B5C2C00498A55 /* ReportView.swift */,
 				780287222A8B709500498A55 /* PickMusView.swift */,
+				785F1CBA2A95DAB30093B997 /* ReportPick.swift */,
 				780287242A8B71ED00498A55 /* PickLocView.swift */,
 				78C0454F2A8BD72D000E3A7E /* TutorView.swift */,
 				78C045512A8CBBCD000E3A7E /* viewVR.swift */,
 				785F1CB82A94C79A0093B997 /* VRView.swift */,
-				785F1CBA2A95DAB30093B997 /* ReportPick.swift */,
+				7802871E2A8B5C2C00498A55 /* ReportView.swift */,
+				91287EF32A87336100539FA2 /* Preview Content */,
 			);
 			path = TerraWander;
 			sourceTree = "<group>";
