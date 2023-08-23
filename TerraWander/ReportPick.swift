@@ -58,12 +58,14 @@ struct ReportPick: View {
                         
                         
                         .alert(isPresented: $showAlert1) {
+                           
                             Alert(
                                 title: Text("Dear (Name),"),
-                                message: Text("I hope this message finds you well. I wanted to take a moment to touch base and hear about your experiences with practicing nature healing as a way to reduce stress. It's great that you've taken this step towards self-care, and I value your openness in sharing your thoughts.I understand that your recent encounters with nature healing have left you feeling relatively neutral. It's important to remember that our responses to such practices can vary and aren't always immediate. Your feelings of neutrality might indicate a sense of equilibrium or perhaps a need for further exploration."),
+                                message: Text("I trust this message finds you in good health. I wanted to take a moment to reach out and inquire about your encounters with nature healing as a method to alleviate stress. It's wonderful that you've chosen to prioritize self-care in this way, and I appreciate your openness in sharing your thoughts. I understand that your recent experiences with nature healing have left you with a sense of neutrality. It's important to acknowledge that reactions to such practices can be diverse and not always immediate. Your feelings of neutrality could suggest a state of equilibrium or perhaps a desire for further exploration. Here are some insights and suggestions to consider as you continue along this journey: Embrace Neutrality: Feeling neutral doesn't necessarily indicate a negative response. It could signify that you're discovering a sense of balance or tranquility. Taking time to delve into this state could be quite rewarding. Deepen Your Connection: If you're seeking more profound experiences, consider delving into different facets of nature that resonate with you. Experiment with various settings, times of day, or nature-related activities to see if they evoke distinct emotions or sensations. Practice Mindful Observation: Engaging in mindful observation during your nature healing sessions can be enriching. Focus on the intricate details around you—the rustling leaves, the interplay of sunlight, the textures of the environment. This practice can enhance your presence and connection to the experience. Remember that there isn't a singular right way to experience nature healing. The fact that you're engaging in these practices and striving to alleviate stress is a commendable step in itself. I'm here to provide support on this path. Feel free to share your reflections, inquiries, or any newfound insights you've gained. Your dedication to your well-being is truly inspiring. Best regards,OurWelfare"),
                                 
                                 dismissButton: .default(Text("DONE"))
                             )
+                                
                         }
                         
                         Button(action: {
@@ -94,11 +96,11 @@ struct ReportPick: View {
         
                             
                     }
-                    .foregroundColor(.white)
+                    .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))
 //                    .font(.custom("SF Pro", size: 25))
                     .bold()
                     .frame(width: 110, height: 33, alignment: .center)
-                    .background(Color(red: 0.22, green: 0.53, blue: 0.66))
+                    .background(.white)
                     .cornerRadius(8)
                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
@@ -112,7 +114,7 @@ struct ReportPick: View {
                     .edgesIgnoringSafeArea(.all)
 
         )
-        }
+        }.navigationBarBackButtonHidden()
         
         
         

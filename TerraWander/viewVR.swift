@@ -20,12 +20,14 @@ struct viewVR: View {
                                 .imageScale(.large)
                                 .foregroundColor(.white)
                         }
+                        .padding()
                         NavigationLink(destination: PickLocView()) {
                             Image(systemName:"globe.central.south.asia.fill")
                                 .imageScale(.large)
                                 .foregroundColor(.white)
                         }
                     }
+                    .padding()
                     Spacer()
                     NavigationLink(destination: ReportPick()) {
                         Text("FINISH")
@@ -47,7 +49,7 @@ struct viewVR: View {
                         .resizable()
                         .edgesIgnoringSafeArea(.all)
             )
-        }
+        }.navigationBarBackButtonHidden()
     }
 }
 

@@ -49,11 +49,12 @@ struct PickLocView: View {
                                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                     
                                     Text("Beach")
-                                        .font(
-                                            Font.custom("SF Pro", size: 20)
-                                                .weight(.bold)
-                                        )
+//                                        .font(
+//                                            Font.custom("SF Pro", size: 20)
+//                                                .weight(.bold)
+//                                        )
                                         .foregroundColor(.white)
+                                        .bold()
                                     
                                 }
                                 
@@ -74,11 +75,12 @@ struct PickLocView: View {
                                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                     
                                     Text("Waterfall")
-                                        .font(
-                                            Font.custom("SF Pro", size: 20)
-                                                .weight(.bold)
-                                        )
+//                                        .font(
+//                                            Font.custom("SF Pro", size: 20)
+//                                                .weight(.bold)
+//                                        )
                                         .foregroundColor(.white)
+                                        .bold()
                                     
                                 }
                                 
@@ -98,66 +100,20 @@ struct PickLocView: View {
                                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                     
                                     Text("Garden")
-                                        .font(
-                                            Font.custom("SF Pro", size: 20)
-                                                .weight(.bold)
-                                        )
+//                                        .font(
+//                                            Font.custom("SF Pro", size: 20)
+//                                                .weight(.bold)
+//                                        )
                                         .foregroundColor(.white)
+                                        .bold()
                                     
                                 }
                                 
-                                VStack {
-                                    Rectangle()
-                                        .foregroundColor(.clear)
-                                        .frame(width: 283, height: 190, alignment: .center)
-                                        .background(
-                                            Image("mountain")
-                                                .resizable()
-                                                .aspectRatio(contentMode: .fill)
-                                                .frame(width: 283, height: 190)
-                                                .clipped()
-                                        )
-                                        .cornerRadius(5)
-                                        .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                                        .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                                        .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                                    
-                                    Text("Mountain")
-                                        .font(
-                                            Font.custom("SF Pro", size: 20)
-                                                .weight(.bold)
-                                        )
-                                        .foregroundColor(.white)
-                                    
-                                }
-                                
-                                VStack {
-                                    Rectangle()
-                                        .foregroundColor(.clear)
-                                        .frame(width: 266, height: 141)
-                                        .background(
-                                            Image("city")
-                                                .resizable()
-                                                .aspectRatio(contentMode: .fill)
-                                                .frame(width: 266, height: 141)
-                                                .clipped()
-                                        )
-                                        .cornerRadius(5)
-                                        .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                                        .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                                    
-                                    Text("City Light")
-                                        .font(
-                                            Font.custom("SF Pro", size: 20)
-                                                .weight(.bold)
-                                        )
-                                        .foregroundColor(.white)
-                                    
-                                }
                                 
                             }
                             
                         }
+                        Spacer()
                         NavigationLink(destination: viewVR()) {
                             Text("DONE")
                                 .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))
@@ -165,15 +121,13 @@ struct PickLocView: View {
                                 .bold()
                         }
                     
-                    .padding(.horizontal, 10.31214)
-                    .padding(.vertical, 7.7341)
+                    
                     .frame(width: 110, height: 33, alignment: .center)
 
                     .background(.white)
                     .cornerRadius(8)
                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                        
                     }
                 }
                 
