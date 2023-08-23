@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var audioManager = AudioManager.shared
+        
     var body: some View {
         NavigationStack{
             ZStack {
