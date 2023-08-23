@@ -24,15 +24,15 @@ struct PickMusView: View {
         NavigationStack {
             GeometryReader{ geometry in
                 ZStack {
-                    Rectangle()
-                        .foregroundColor(.clear)
-                        .frame(width: 1000, height: 390)
-                        .background(
-                            Image("backhitam")
-                                .resizable()
-                                .aspectRatio(contentMode: .fill)
-                        )
-                        .edgesIgnoringSafeArea(.all)
+//                    Rectangle()
+//                        .foregroundColor(.clear)
+//                        .frame(width: 1000, height: 390)
+//                        .background(
+//                            Image("backhitam")
+//                                .resizable()
+//                                .aspectRatio(contentMode: .fill)
+//                        )
+//                        .edgesIgnoringSafeArea(.all)
                     VStack(alignment: .trailing) {
                         NavigationLink(destination: PickLocView()) {
                             Image(systemName:"globe.central.south.asia.fill")
@@ -133,7 +133,7 @@ struct PickMusView: View {
                                             .font(Font.custom("SF Pro", size: 13))
                                             .foregroundColor(.white)
                                     }
-                                }
+                                }.padding(.horizontal,-50)
                             }
                         }
                         VStack(spacing: 0) { // Wrap the slider and buttons in a VStack
@@ -150,12 +150,13 @@ struct PickMusView: View {
                             )
                             .accentColor(Color(red: 0.22, green: 0.53, blue: 0.66))
                             .frame(width: geometry.size.width * 0.9, height: 10) // Adjust the width (e.g., 80% of geometry width) and height as needed
-                            .padding(.horizontal, -450)
+                            .padding(.horizontal, -350)
 
                                     
                                     Spacer()
                                     
-                                    HStack(spacing: 30) { // Adjust spacing as needed
+                                    HStack { // Adjust spacing as needed
+                                        Spacer()
                                         Button(action: {
                                             if audioManager.isPlaying {
                                                 audioManager.pauseAudio()
@@ -166,9 +167,10 @@ struct PickMusView: View {
                                             Image(systemName: audioManager.isPlaying ? "pause.circle" : "play.circle")
                                                 .font(.system(size: 35))
                                                 .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))
-                                                .padding(.horizontal, 0)
+                                                .padding(.horizontal, 230)
+                                                                                            
                                         }
-                                        
+//                                        Spacer()
                                         NavigationLink(destination: viewVR()) {
                                             Text("DONE")
                                                 .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))
@@ -190,6 +192,9 @@ struct PickMusView: View {
                             }
                         }
                         .navigationBarBackButtonHidden()
+                        .background(
+                            Color(.black)
+                        )
             }
         }
     }

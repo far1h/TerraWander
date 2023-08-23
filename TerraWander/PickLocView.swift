@@ -12,14 +12,14 @@ struct PickLocView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Rectangle()
-                    .foregroundColor(.clear)
-                    .frame(width: 844, height: 390)
-                    .background(
-                        Image("backhitam")
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                    )
+//                Rectangle()
+//                    .foregroundColor(.clear)
+//                    .frame(width: 844, height: 390)
+//                    .background(
+//                        Image("backhitam")
+//                            .resizable()
+//                            .aspectRatio(contentMode: .fill)
+//                    )
                 
                 VStack(alignment: .trailing) {
                     NavigationLink(destination: PickMusView()) {
@@ -28,7 +28,7 @@ struct PickLocView: View {
                             .foregroundColor(.white)
                     }.padding()
                     
-                    VStack {
+                    VStack (alignment: .trailing){
                         Spacer()
                         
                         ScrollView (.horizontal) {
@@ -109,8 +109,7 @@ struct PickLocView: View {
                                     
                                 }
                                 
-                                
-                            }
+                            }.padding(.horizontal,-50)
                             
                         }
                         Spacer()
@@ -133,8 +132,8 @@ struct PickLocView: View {
                 
                 
             } .background(
-                Image("backhitam")
-                    .resizable()
+                Color(.black)
+//                    .resizable()
                     .edgesIgnoringSafeArea(.all)
         )
         }.navigationBarBackButtonHidden()
