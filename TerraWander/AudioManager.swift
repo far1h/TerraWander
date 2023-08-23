@@ -30,7 +30,9 @@ class AudioManager: ObservableObject {
     func pauseAudio() {
         audioPlayer?.pause()
         objectWillChange.send()
-        
-        }
     }
 
+    func stopAudio() {
+        audioPlayer?.stop()
+    }
+}

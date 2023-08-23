@@ -148,7 +148,7 @@ struct TutorView: View {
                                     .foregroundColor(.black)
                                     .bold()
                                 
-                                Text("Enjoy your journey!, if you want to change place you can click button “earth” and if you want to change music you can click button “headphone”.\n\nAfter that if you want to end your journey you can click button “FINISH”. ")
+                                Text("Enjoy your journey!, if you want to change locations you can click on the earth icon, and if you want to change music you can click on the headphone icon.\n\nAfter that if you want to end your journey you can click button “FINISH”. ")
                                     .font(
                                         Font.custom("SF Pro", size: 10)
                                             .weight(.medium)
@@ -192,7 +192,7 @@ struct TutorView: View {
                                     .foregroundColor(.black)
                                     .bold()
                                 
-                                Text("Choose the emoticons based on your feelings after doing your journey.\n\nPlease being honest!")
+                                Text("Choose the emoticons based on how you feel after doing your journey.\n\nPlease be honest!")
                                     .font(
                                         Font.custom("SF Pro", size: 15)
                                             .weight(.medium)

@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var audioManager = AudioManager.shared
-        
+    
     var body: some View {
         NavigationStack{
             ZStack {
@@ -20,20 +20,20 @@ struct ContentView: View {
                     VStack{
                         Spacer()
                         Text("by OurWelfare")
-                          .font(
-                            Font.custom("SF Pro Display", size: 20.46512)
-                              .weight(.thin)
-                          )
-                          .multilineTextAlignment(.center)
-                          .foregroundColor(.white)
+                            .font(
+                                Font.custom("SF Pro Display", size: 20.46512)
+                                    .weight(.thin)
+                            )
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(.white)
                         Text("“Let’s reduce stress with nature!” ")
-                          .font(
-                            Font.custom("SF Pro", size: 13)
-                              .weight(.semibold)
-                          )
-                          .kerning(0.2578)
-                          .multilineTextAlignment(.center)
-                          .foregroundColor(.white)
+                            .font(
+                                Font.custom("SF Pro", size: 13)
+                                    .weight(.semibold)
+                            )
+                            .kerning(0.2578)
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(.white)
                         NavigationLink {
                             // destination view to navigation to
                             SettingsView()
@@ -52,7 +52,7 @@ struct ContentView: View {
                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                         NavigationLink {
                             // destination view to navigation to
-                            AppTutorial()
+                            TutorView()
                         } label: {
                             Text("TUTORIAL")
                                 .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))
@@ -62,7 +62,7 @@ struct ContentView: View {
                         .padding(.horizontal, 10.31214)
                         .padding(.vertical, 7.7341)
                         .frame(width: 110, height: 33, alignment: .center)
-
+                        
                         .background(.white)
                         .cornerRadius(8)
                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
@@ -77,11 +77,13 @@ struct ContentView: View {
                     .resizable()
                     .edgesIgnoringSafeArea(.all)
             )
-
-        }.navigationBarBackButtonHidden()
-        
-            }
+            
+        }
+        .navigationBarBackButtonHidden()
+        .environmentObject(audioManager) // Inject AudioManager
+    }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
