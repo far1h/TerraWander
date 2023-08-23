@@ -49,11 +49,12 @@ struct PickLocView: View {
                                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                     
                                     Text("Beach")
-                                        .font(
-                                            Font.custom("SF Pro", size: 20)
-                                                .weight(.bold)
-                                        )
+//                                        .font(
+//                                            Font.custom("SF Pro", size: 20)
+//                                                .weight(.bold)
+//                                        )
                                         .foregroundColor(.white)
+                                        .bold()
                                     
                                 }
                                 
@@ -74,11 +75,12 @@ struct PickLocView: View {
                                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                     
                                     Text("Waterfall")
-                                        .font(
-                                            Font.custom("SF Pro", size: 20)
-                                                .weight(.bold)
-                                        )
+//                                        .font(
+//                                            Font.custom("SF Pro", size: 20)
+//                                                .weight(.bold)
+//                                        )
                                         .foregroundColor(.white)
+                                        .bold()
                                     
                                 }
                                 
@@ -98,62 +100,15 @@ struct PickLocView: View {
                                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                     
                                     Text("Garden")
-                                        .font(
-                                            Font.custom("SF Pro", size: 20)
-                                                .weight(.bold)
-                                        )
+//                                        .font(
+//                                            Font.custom("SF Pro", size: 20)
+//                                                .weight(.bold)
+//                                        )
                                         .foregroundColor(.white)
+                                        .bold()
                                     
                                 }
                                 
-                                VStack {
-                                    Rectangle()
-                                        .foregroundColor(.clear)
-                                        .frame(width: 283, height: 190, alignment: .center)
-                                        .background(
-                                            Image("mountain")
-                                                .resizable()
-                                                .aspectRatio(contentMode: .fill)
-                                                .frame(width: 283, height: 190)
-                                                .clipped()
-                                        )
-                                        .cornerRadius(5)
-                                        .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                                        .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                                        .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                                    
-                                    Text("Mountain")
-                                        .font(
-                                            Font.custom("SF Pro", size: 20)
-                                                .weight(.bold)
-                                        )
-                                        .foregroundColor(.white)
-                                    
-                                }
-                                
-                                VStack {
-                                    Rectangle()
-                                        .foregroundColor(.clear)
-                                        .frame(width: 266, height: 141)
-                                        .background(
-                                            Image("city")
-                                                .resizable()
-                                                .aspectRatio(contentMode: .fill)
-                                                .frame(width: 266, height: 141)
-                                                .clipped()
-                                        )
-                                        .cornerRadius(5)
-                                        .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                                        .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                                    
-                                    Text("City Light")
-                                        .font(
-                                            Font.custom("SF Pro", size: 20)
-                                                .weight(.bold)
-                                        )
-                                        .foregroundColor(.white)
-                                    
-                                }
                                 
                             }
                             
@@ -173,7 +128,7 @@ struct PickLocView: View {
                     .cornerRadius(8)
                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                        
+                        Spacer()
                     }
                 }
                 

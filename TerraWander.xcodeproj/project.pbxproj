@@ -14,6 +14,9 @@
 		780287252A8B71ED00498A55 /* PickLocView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780287242A8B71ED00498A55 /* PickLocView.swift */; };
 		785F1CB92A94C79A0093B997 /* VRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785F1CB82A94C79A0093B997 /* VRView.swift */; };
 		785F1CBB2A95DAB30093B997 /* ReportPick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785F1CBA2A95DAB30093B997 /* ReportPick.swift */; };
+		785F1CBF2A9615970093B997 /* cruelsummer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 785F1CBC2A9615960093B997 /* cruelsummer.mp3 */; };
+		785F1CC02A9615970093B997 /* best_part.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 785F1CBD2A9615960093B997 /* best_part.mp3 */; };
+		785F1CC12A9615970093B997 /* cool_with_you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 785F1CBE2A9615970093B997 /* cool_with_you.mp3 */; };
 		78C045502A8BD72D000E3A7E /* TutorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C0454F2A8BD72D000E3A7E /* TutorView.swift */; };
 		78C045522A8CBBCD000E3A7E /* viewVR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C045512A8CBBCD000E3A7E /* viewVR.swift */; };
 		91287EEE2A87336000539FA2 /* TerraWanderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287EED2A87336000539FA2 /* TerraWanderApp.swift */; };
@@ -52,6 +55,9 @@
 		780287242A8B71ED00498A55 /* PickLocView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickLocView.swift; sourceTree = "<group>"; };
 		785F1CB82A94C79A0093B997 /* VRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRView.swift; sourceTree = "<group>"; };
 		785F1CBA2A95DAB30093B997 /* ReportPick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportPick.swift; sourceTree = "<group>"; };
+		785F1CBC2A9615960093B997 /* cruelsummer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cruelsummer.mp3; path = ../../../../Downloads/cruelsummer.mp3; sourceTree = "<group>"; };
+		785F1CBD2A9615960093B997 /* best_part.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = best_part.mp3; path = ../../../../Downloads/best_part.mp3; sourceTree = "<group>"; };
+		785F1CBE2A9615970093B997 /* cool_with_you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cool_with_you.mp3; path = ../../../../Downloads/cool_with_you.mp3; sourceTree = "<group>"; };
 		78C0454F2A8BD72D000E3A7E /* TutorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorView.swift; sourceTree = "<group>"; };
 		78C045512A8CBBCD000E3A7E /* viewVR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewVR.swift; sourceTree = "<group>"; };
 		91287EEA2A87336000539FA2 /* TerraWander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraWander.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +134,9 @@
 				780287222A8B709500498A55 /* PickMusView.swift */,
 				780287242A8B71ED00498A55 /* PickLocView.swift */,
 				78C0454F2A8BD72D000E3A7E /* TutorView.swift */,
+				785F1CBD2A9615960093B997 /* best_part.mp3 */,
+				785F1CBE2A9615970093B997 /* cool_with_you.mp3 */,
+				785F1CBC2A9615960093B997 /* cruelsummer.mp3 */,
 				78C045512A8CBBCD000E3A7E /* viewVR.swift */,
 				785F1CB82A94C79A0093B997 /* VRView.swift */,
 				785F1CBA2A95DAB30093B997 /* ReportPick.swift */,
@@ -266,6 +275,9 @@
 			files = (
 				91287EF52A87336100539FA2 /* Preview Assets.xcassets in Resources */,
 				91287EF22A87336100539FA2 /* Assets.xcassets in Resources */,
+				785F1CBF2A9615970093B997 /* cruelsummer.mp3 in Resources */,
+				785F1CC02A9615970093B997 /* best_part.mp3 in Resources */,
+				785F1CC12A9615970093B997 /* cool_with_you.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

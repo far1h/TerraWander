@@ -61,11 +61,12 @@ struct PickMusView: View {
                                         }
                                     
                                     Text("Cool with You")
-                                        .font(
-                                            Font.custom("SF Pro", size: 20)
-                                                .weight(.bold)
-                                        )
+//                                        .font(
+//                                            Font.custom("SF Pro", size: 20)
+//                                                .weight(.bold)
+//                                        )
                                         .foregroundColor(.white)
+                                        .bold()
                                     
                                     Text("by Newjeans")
                                         .font(Font.custom("SF Pro", size: 13))
@@ -92,11 +93,12 @@ struct PickMusView: View {
                                         }
                                     
                                     Text("Cruel Summer")
-                                        .font(
-                                            Font.custom("SF Pro", size: 20)
-                                                .weight(.bold)
-                                        )
+//                                        .font(
+//                                            Font.custom("SF Pro", size: 20)
+//                                                .weight(.bold)
+//                                        )
                                         .foregroundColor(.white)
+                                        .bold()
                                     
                                     Text("by Taylor Swift")
                                         .font(Font.custom("SF Pro", size: 13))
@@ -122,11 +124,12 @@ struct PickMusView: View {
                                         }
                                     
                                     Text("Best Part")
-                                        .font(
-                                            Font.custom("SF Pro", size: 20)
-                                                .weight(.bold)
-                                        )
+//                                        .font(
+//                                            Font.custom("SF Pro", size: 20)
+//                                                .weight(.bold)
+//                                        )
                                         .foregroundColor(.white)
+                                        .bold()
                                     
                                     Text("by Daniel Caesar")
                                         .font(Font.custom("SF Pro", size: 13))
