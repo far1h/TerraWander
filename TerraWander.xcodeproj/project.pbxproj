@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		421C42C32A8A0EAF005FB2A7 /* AppTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */; };
 		42A720F12A96100F001143B0 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A720F02A96100F001143B0 /* AudioManager.swift */; };
+		42A721062A974461001143B0 /* best_part.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 42A721052A974461001143B0 /* best_part.mp3 */; };
+		42A721092A974492001143B0 /* cruelsummer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 42A721072A974492001143B0 /* cruelsummer.mp3 */; };
+		42A7210A2A974492001143B0 /* cool_with_you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 42A721082A974492001143B0 /* cool_with_you.mp3 */; };
 		7802871F2A8B5C2C00498A55 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802871E2A8B5C2C00498A55 /* ReportView.swift */; };
 		780287232A8B709500498A55 /* PickMusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780287222A8B709500498A55 /* PickMusView.swift */; };
 		780287252A8B71ED00498A55 /* PickLocView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780287242A8B71ED00498A55 /* PickLocView.swift */; };
@@ -47,6 +50,9 @@
 /* Begin PBXFileReference section */
 		421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTutorial.swift; sourceTree = "<group>"; };
 		42A720F02A96100F001143B0 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		42A721052A974461001143B0 /* best_part.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = best_part.mp3; sourceTree = "<group>"; };
+		42A721072A974492001143B0 /* cruelsummer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cruelsummer.mp3; sourceTree = "<group>"; };
+		42A721082A974492001143B0 /* cool_with_you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cool_with_you.mp3; sourceTree = "<group>"; };
 		7802871E2A8B5C2C00498A55 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
 		780287222A8B709500498A55 /* PickMusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickMusView.swift; sourceTree = "<group>"; };
 		780287242A8B71ED00498A55 /* PickLocView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickLocView.swift; sourceTree = "<group>"; };
@@ -139,6 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				91287EF42A87336100539FA2 /* Preview Assets.xcassets */,
+				42A721052A974461001143B0 /* best_part.mp3 */,
+				42A721082A974492001143B0 /* cool_with_you.mp3 */,
+				42A721072A974492001143B0 /* cruelsummer.mp3 */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -265,7 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				91287EF52A87336100539FA2 /* Preview Assets.xcassets in Resources */,
+				42A721092A974492001143B0 /* cruelsummer.mp3 in Resources */,
 				91287EF22A87336100539FA2 /* Assets.xcassets in Resources */,
+				42A721062A974461001143B0 /* best_part.mp3 in Resources */,
+				42A7210A2A974492001143B0 /* cool_with_you.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
