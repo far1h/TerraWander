@@ -21,7 +21,7 @@ struct ContentView: View {
                         Spacer()
                         Text("by OurWelfare")
                             .font(
-                                Font.custom("SF Pro Display", size: 20.46512)
+                                Font.custom("SF Pro Compact", size: 20.46512)
                                     .weight(.thin)
                             )
                             .multilineTextAlignment(.center)
@@ -53,7 +53,7 @@ struct ContentView: View {
                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                         NavigationLink {
                             // destination view to navigation to
-                            AppTutorial()
+                            TutorView()
                         } label: {
                             Text("TUTORIAL")
                                 .foregroundColor(Color(red: 0.22, green: 0.53, blue: 0.66))
@@ -70,7 +70,7 @@ struct ContentView: View {
                         .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                         Spacer()
                     }
-                    .position(x:350,y:244)
+                    .position(x:400,y:260)
                     Spacer()
                 }
             }.background(
