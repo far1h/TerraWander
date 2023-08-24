@@ -25,7 +25,7 @@ struct SettingsView: View {
                   .foregroundColor(.clear)
                   .frame(width: 844, height: 390)
                   .background(
-                    Image("bg landscape")
+                    Image("bgpemandangan")
                       .resizable()
                       .aspectRatio(contentMode: .fill)
                   )
