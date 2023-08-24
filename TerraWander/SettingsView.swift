@@ -27,9 +27,9 @@ struct SettingsView: View {
                     HStack {
                         Picker("Location", selection: $selectedOption) {
                             Text("Select Location").tag(0) // Placeholder
-                            Text("Beach").tag(1)
+                            Text("Waterfall").tag(1)
                             Text("Rainforest").tag(2)
-                            Text("Mountain").tag(3)
+                            Text("Shark").tag(3)
                         }
                         .background(Color.white)
                         .clipShape(Capsule())

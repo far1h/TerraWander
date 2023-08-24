@@ -23,11 +23,23 @@
 		91287EFF2A87336100539FA2 /* TerraWanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287EFE2A87336100539FA2 /* TerraWanderTests.swift */; };
 		91287F092A87336100539FA2 /* TerraWanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287F082A87336100539FA2 /* TerraWanderUITests.swift */; };
 		91287F0B2A87336100539FA2 /* TerraWanderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287F0A2A87336100539FA2 /* TerraWanderUITestsLaunchTests.swift */; };
-		91A32ABB2A96C90200FA260E /* cruelsummer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91A32AB82A96C90200FA260E /* cruelsummer.mp3 */; };
-		91A32ABC2A96C90200FA260E /* best_part.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91A32AB92A96C90200FA260E /* best_part.mp3 */; };
-		91A32ABD2A96C90200FA260E /* cool_with_you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91A32ABA2A96C90200FA260E /* cool_with_you.mp3 */; };
 		91F9CB412A888DC800FA3DB9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F9CB402A888DC800FA3DB9 /* SettingsView.swift */; };
 		CB40726D2A8A442F009A30F5 /* home1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40726C2A8A442F009A30F5 /* home1.swift */; };
+		CBF2FD592A973D710015F003 /* Video360ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2FD572A973D710015F003 /* Video360ViewController.swift */; };
+		CBF2FD5A2A973D710015F003 /* VirtualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2FD582A973D710015F003 /* VirtualView.swift */; };
+		CBF2FD5C2A973D7C0015F003 /* Video360View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2FD5B2A973D7B0015F003 /* Video360View.swift */; };
+		CBF2FD602A973DB10015F003 /* cruelsummer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF2FD5D2A973DB10015F003 /* cruelsummer.mp3 */; };
+		CBF2FD612A973DB10015F003 /* cool_with_you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF2FD5E2A973DB10015F003 /* cool_with_you.mp3 */; };
+		CBF2FD622A973DB10015F003 /* best_part.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF2FD5F2A973DB10015F003 /* best_part.mp3 */; };
+		CBF8E8C72A9748CB0000C31F /* VirtualViewWaterfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E8C42A9748CB0000C31F /* VirtualViewWaterfall.swift */; };
+		CBF8E8C82A9748CB0000C31F /* Video360ViewControllerWaterfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E8C52A9748CB0000C31F /* Video360ViewControllerWaterfall.swift */; };
+		CBF8E8C92A9748CB0000C31F /* Video360ViewWaterfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E8C62A9748CB0000C31F /* Video360ViewWaterfall.swift */; };
+		CBF8E8CB2A9749580000C31F /* Niagara Falls.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CBF8E8CA2A9749580000C31F /* Niagara Falls.mp4 */; };
+		CBF8E8D02A974A910000C31F /* VirtualViewShark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E8CD2A974A910000C31F /* VirtualViewShark.swift */; };
+		CBF8E8D12A974A910000C31F /* Video360ViewControllerShark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E8CE2A974A910000C31F /* Video360ViewControllerShark.swift */; };
+		CBF8E8D22A974A910000C31F /* Video360ViewShark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8E8CF2A974A910000C31F /* Video360ViewShark.swift */; };
+		CBF8E8D42A974AB50000C31F /* SharkVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CBF8E8D32A974AB50000C31F /* SharkVideo.mp4 */; };
+		CBF8E8D62A975B0C0000C31F /* forestaHD.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CBF8E8D52A975B0C0000C31F /* forestaHD.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,11 +79,23 @@
 		91287F042A87336100539FA2 /* TerraWanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerraWanderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91287F082A87336100539FA2 /* TerraWanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraWanderUITests.swift; sourceTree = "<group>"; };
 		91287F0A2A87336100539FA2 /* TerraWanderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraWanderUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		91A32AB82A96C90200FA260E /* cruelsummer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cruelsummer.mp3; path = ../../../Downloads/cruelsummer.mp3; sourceTree = "<group>"; };
-		91A32AB92A96C90200FA260E /* best_part.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = best_part.mp3; path = ../../../Downloads/best_part.mp3; sourceTree = "<group>"; };
-		91A32ABA2A96C90200FA260E /* cool_with_you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cool_with_you.mp3; path = ../../../Downloads/cool_with_you.mp3; sourceTree = "<group>"; };
 		91F9CB402A888DC800FA3DB9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CB40726C2A8A442F009A30F5 /* home1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home1.swift; sourceTree = "<group>"; };
+		CBF2FD572A973D710015F003 /* Video360ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video360ViewController.swift; sourceTree = "<group>"; };
+		CBF2FD582A973D710015F003 /* VirtualView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualView.swift; sourceTree = "<group>"; };
+		CBF2FD5B2A973D7B0015F003 /* Video360View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video360View.swift; sourceTree = "<group>"; };
+		CBF2FD5D2A973DB10015F003 /* cruelsummer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cruelsummer.mp3; sourceTree = "<group>"; };
+		CBF2FD5E2A973DB10015F003 /* cool_with_you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cool_with_you.mp3; sourceTree = "<group>"; };
+		CBF2FD5F2A973DB10015F003 /* best_part.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = best_part.mp3; sourceTree = "<group>"; };
+		CBF8E8C42A9748CB0000C31F /* VirtualViewWaterfall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualViewWaterfall.swift; sourceTree = "<group>"; };
+		CBF8E8C52A9748CB0000C31F /* Video360ViewControllerWaterfall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video360ViewControllerWaterfall.swift; sourceTree = "<group>"; };
+		CBF8E8C62A9748CB0000C31F /* Video360ViewWaterfall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video360ViewWaterfall.swift; sourceTree = "<group>"; };
+		CBF8E8CA2A9749580000C31F /* Niagara Falls.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Niagara Falls.mp4"; sourceTree = "<group>"; };
+		CBF8E8CD2A974A910000C31F /* VirtualViewShark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualViewShark.swift; sourceTree = "<group>"; };
+		CBF8E8CE2A974A910000C31F /* Video360ViewControllerShark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video360ViewControllerShark.swift; sourceTree = "<group>"; };
+		CBF8E8CF2A974A910000C31F /* Video360ViewShark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video360ViewShark.swift; sourceTree = "<group>"; };
+		CBF8E8D32A974AB50000C31F /* SharkVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SharkVideo.mp4; sourceTree = "<group>"; };
+		CBF8E8D52A975B0C0000C31F /* forestaHD.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = forestaHD.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,13 +147,16 @@
 			isa = PBXGroup;
 			children = (
 				91287EED2A87336000539FA2 /* TerraWanderApp.swift */,
+				CBF8E8CC2A9749660000C31F /* Shark */,
+				CBF8E8C32A9747B60000C31F /* Waterfall */,
 				CB40726C2A8A442F009A30F5 /* home1.swift */,
+				CBF2FD5F2A973DB10015F003 /* best_part.mp3 */,
+				CBF2FD5E2A973DB10015F003 /* cool_with_you.mp3 */,
+				CBF2FD5D2A973DB10015F003 /* cruelsummer.mp3 */,
 				91287EEF2A87336000539FA2 /* ContentView.swift */,
-				91A32AB92A96C90200FA260E /* best_part.mp3 */,
-				91A32ABA2A96C90200FA260E /* cool_with_you.mp3 */,
-				91A32AB82A96C90200FA260E /* cruelsummer.mp3 */,
 				91F9CB402A888DC800FA3DB9 /* SettingsView.swift */,
 				421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */,
+				CBF2FD632A973DCC0015F003 /* Forest */,
 				42A720F02A96100F001143B0 /* AudioManager.swift */,
 				780287222A8B709500498A55 /* PickMusView.swift */,
 				91287EF12A87336100539FA2 /* Assets.xcassets */,
@@ -167,6 +194,39 @@
 				91287F0A2A87336100539FA2 /* TerraWanderUITestsLaunchTests.swift */,
 			);
 			path = TerraWanderUITests;
+			sourceTree = "<group>";
+		};
+		CBF2FD632A973DCC0015F003 /* Forest */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8E8D52A975B0C0000C31F /* forestaHD.mp4 */,
+				CBF2FD572A973D710015F003 /* Video360ViewController.swift */,
+				CBF2FD582A973D710015F003 /* VirtualView.swift */,
+				CBF2FD5B2A973D7B0015F003 /* Video360View.swift */,
+			);
+			path = Forest;
+			sourceTree = "<group>";
+		};
+		CBF8E8C32A9747B60000C31F /* Waterfall */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8E8C52A9748CB0000C31F /* Video360ViewControllerWaterfall.swift */,
+				CBF8E8CA2A9749580000C31F /* Niagara Falls.mp4 */,
+				CBF8E8C62A9748CB0000C31F /* Video360ViewWaterfall.swift */,
+				CBF8E8C42A9748CB0000C31F /* VirtualViewWaterfall.swift */,
+			);
+			path = Waterfall;
+			sourceTree = "<group>";
+		};
+		CBF8E8CC2A9749660000C31F /* Shark */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8E8D32A974AB50000C31F /* SharkVideo.mp4 */,
+				CBF8E8CE2A974A910000C31F /* Video360ViewControllerShark.swift */,
+				CBF8E8CF2A974A910000C31F /* Video360ViewShark.swift */,
+				CBF8E8CD2A974A910000C31F /* VirtualViewShark.swift */,
+			);
+			path = Shark;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,9 +335,12 @@
 			files = (
 				91287EF52A87336100539FA2 /* Preview Assets.xcassets in Resources */,
 				91287EF22A87336100539FA2 /* Assets.xcassets in Resources */,
-				91A32ABB2A96C90200FA260E /* cruelsummer.mp3 in Resources */,
-				91A32ABC2A96C90200FA260E /* best_part.mp3 in Resources */,
-				91A32ABD2A96C90200FA260E /* cool_with_you.mp3 in Resources */,
+				CBF2FD602A973DB10015F003 /* cruelsummer.mp3 in Resources */,
+				CBF2FD622A973DB10015F003 /* best_part.mp3 in Resources */,
+				CBF8E8D62A975B0C0000C31F /* forestaHD.mp4 in Resources */,
+				CBF8E8D42A974AB50000C31F /* SharkVideo.mp4 in Resources */,
+				CBF2FD612A973DB10015F003 /* cool_with_you.mp3 in Resources */,
+				CBF8E8CB2A9749580000C31F /* Niagara Falls.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,12 +365,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF8E8C72A9748CB0000C31F /* VirtualViewWaterfall.swift in Sources */,
+				CBF8E8C82A9748CB0000C31F /* Video360ViewControllerWaterfall.swift in Sources */,
 				91F9CB412A888DC800FA3DB9 /* SettingsView.swift in Sources */,
 				CB40726D2A8A442F009A30F5 /* home1.swift in Sources */,
+				CBF8E8D02A974A910000C31F /* VirtualViewShark.swift in Sources */,
+				CBF2FD592A973D710015F003 /* Video360ViewController.swift in Sources */,
 				785F1CBB2A95DAB30093B997 /* ReportPick.swift in Sources */,
+				CBF8E8D12A974A910000C31F /* Video360ViewControllerShark.swift in Sources */,
 				78C045522A8CBBCD000E3A7E /* viewVR.swift in Sources */,
 				7802871F2A8B5C2C00498A55 /* ReportView.swift in Sources */,
 				421C42C32A8A0EAF005FB2A7 /* AppTutorial.swift in Sources */,
+				CBF2FD5A2A973D710015F003 /* VirtualView.swift in Sources */,
+				CBF8E8D22A974A910000C31F /* Video360ViewShark.swift in Sources */,
+				CBF2FD5C2A973D7C0015F003 /* Video360View.swift in Sources */,
+				CBF8E8C92A9748CB0000C31F /* Video360ViewWaterfall.swift in Sources */,
 				78C045502A8BD72D000E3A7E /* TutorView.swift in Sources */,
 				780287252A8B71ED00498A55 /* PickLocView.swift in Sources */,
 				91287EF02A87336000539FA2 /* ContentView.swift in Sources */,
@@ -473,7 +545,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TerraWander/Preview Content\"";
-				DEVELOPMENT_TEAM = A4Q27M86R9;
+				DEVELOPMENT_TEAM = R2VRYRUY4B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -486,7 +558,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OurWelfare.TerraWander;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OurWelfare.TerraWander.jason;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -502,7 +574,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TerraWander/Preview Content\"";
-				DEVELOPMENT_TEAM = A4Q27M86R9;
+				DEVELOPMENT_TEAM = R2VRYRUY4B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -515,7 +587,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OurWelfare.TerraWander;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OurWelfare.TerraWander.jason;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
