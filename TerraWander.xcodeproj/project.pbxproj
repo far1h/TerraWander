@@ -23,9 +23,6 @@
 		91287EFF2A87336100539FA2 /* TerraWanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287EFE2A87336100539FA2 /* TerraWanderTests.swift */; };
 		91287F092A87336100539FA2 /* TerraWanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287F082A87336100539FA2 /* TerraWanderUITests.swift */; };
 		91287F0B2A87336100539FA2 /* TerraWanderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91287F0A2A87336100539FA2 /* TerraWanderUITestsLaunchTests.swift */; };
-		91A32ABB2A96C90200FA260E /* cruelsummer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91A32AB82A96C90200FA260E /* cruelsummer.mp3 */; };
-		91A32ABC2A96C90200FA260E /* best_part.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91A32AB92A96C90200FA260E /* best_part.mp3 */; };
-		91A32ABD2A96C90200FA260E /* cool_with_you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91A32ABA2A96C90200FA260E /* cool_with_you.mp3 */; };
 		91F9CB412A888DC800FA3DB9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F9CB402A888DC800FA3DB9 /* SettingsView.swift */; };
 		CB40726D2A8A442F009A30F5 /* home1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40726C2A8A442F009A30F5 /* home1.swift */; };
 /* End PBXBuildFile section */
@@ -67,9 +64,6 @@
 		91287F042A87336100539FA2 /* TerraWanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerraWanderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91287F082A87336100539FA2 /* TerraWanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraWanderUITests.swift; sourceTree = "<group>"; };
 		91287F0A2A87336100539FA2 /* TerraWanderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraWanderUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		91A32AB82A96C90200FA260E /* cruelsummer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cruelsummer.mp3; path = ../../../Downloads/cruelsummer.mp3; sourceTree = "<group>"; };
-		91A32AB92A96C90200FA260E /* best_part.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = best_part.mp3; path = ../../../Downloads/best_part.mp3; sourceTree = "<group>"; };
-		91A32ABA2A96C90200FA260E /* cool_with_you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cool_with_you.mp3; path = ../../../Downloads/cool_with_you.mp3; sourceTree = "<group>"; };
 		91F9CB402A888DC800FA3DB9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CB40726C2A8A442F009A30F5 /* home1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,9 +119,6 @@
 				91287EED2A87336000539FA2 /* TerraWanderApp.swift */,
 				CB40726C2A8A442F009A30F5 /* home1.swift */,
 				91287EEF2A87336000539FA2 /* ContentView.swift */,
-				91A32AB92A96C90200FA260E /* best_part.mp3 */,
-				91A32ABA2A96C90200FA260E /* cool_with_you.mp3 */,
-				91A32AB82A96C90200FA260E /* cruelsummer.mp3 */,
 				91F9CB402A888DC800FA3DB9 /* SettingsView.swift */,
 				421C42C22A8A0EAF005FB2A7 /* AppTutorial.swift */,
 				42A720F02A96100F001143B0 /* AudioManager.swift */,
@@ -275,9 +266,6 @@
 			files = (
 				91287EF52A87336100539FA2 /* Preview Assets.xcassets in Resources */,
 				91287EF22A87336100539FA2 /* Assets.xcassets in Resources */,
-				91A32ABB2A96C90200FA260E /* cruelsummer.mp3 in Resources */,
-				91A32ABC2A96C90200FA260E /* best_part.mp3 in Resources */,
-				91A32ABD2A96C90200FA260E /* cool_with_you.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,8 +467,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,8 +497,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -34,6 +34,7 @@ struct ContentView: View {
                             .kerning(0.2578)
                             .multilineTextAlignment(.center)
                             .foregroundColor(.white)
+                            .padding(.horizontal,200)
                         NavigationLink {
                             // destination view to navigation to
                             SettingsView()
