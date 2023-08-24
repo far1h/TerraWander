@@ -43,13 +43,10 @@ struct viewVR: View {
 
                     .background(.white)
                     .cornerRadius(8)
-                    .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
-                    .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
+//                    .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
                                     .foregroundColor(.white)
                 }.background(
-                    Image("beach")
-                        .resizable()
-                        .edgesIgnoringSafeArea(.all)
+                    Color(.green)
             )
             
         }.navigationBarBackButtonHidden()
