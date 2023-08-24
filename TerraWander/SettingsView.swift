@@ -6,11 +6,18 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct SettingsView: View {
+    @ObservedObject var audioManager = AudioManager.shared
     @State private var isToggleOn = false
     @State private var selectedOption = 0 // Use optional type
     @State private var selectedOption2 = 0 // Use optional type
+    let audioURLs: [URL] = [
+        Bundle.main.url(forResource: "cool_with_you", withExtension: "mp3")!,
+        Bundle.main.url(forResource: "cruelsummer", withExtension: "mp3")!,
+        Bundle.main.url(forResource: "best_part", withExtension: "mp3")!
+    ]
     var body: some View {
         NavigationStack{
             ZStack {
@@ -38,13 +45,14 @@ struct SettingsView: View {
                         Picker("Location", selection: $selectedOption2) {
                             Text("Select Music").tag(0) // Placeholder
                             Text("None").tag(1)
-                            Text("Taylor Swift - August").tag(2)
-                            Text("Drake - Marvins Room").tag(3)
-                            Text("Coldplay - Yellow").tag(4)
+                            Text("New Jeans - Cool With You").tag(2)
+                            Text("Taylor Swift - Cruel Summer").tag(3)
+                            Text("Daniel Caesar - Best Part").tag(4)
                         }
                         .background(Color.white)
                         .clipShape(Capsule())
                         .padding()
+                        
                         
                         
                     }.padding(100)
@@ -82,7 +90,34 @@ struct SettingsView: View {
 
             )
         }
+        .onAppear() {
+                    playSelectedAudio()
+                }
+                .onChange(of: selectedOption2) { newValue in
+                    playSelectedAudio()
+                }
     }
+    func playAudio(url: URL) {
+        //        do {
+        //audioPlayer = try AVAudioPlayer(contentsOf: url)
+        //            audioPlayer?.play()
+        audioManager.playAudio(from: url)
+        //        } catch {
+        //            print("Error playing audio: \(error)")
+        //        }
+    }
+    func playSelectedAudio() {
+            switch selectedOption2 {
+            case 2:
+                playAudio(url: audioURLs[0])
+            case 3:
+                playAudio(url: audioURLs[1])
+            case 4:
+                playAudio(url: audioURLs[2])
+            default:
+                audioManager.pauseAudio()
+            }
+        }
 }
 
 struct SettingsView_Previews: PreviewProvider {
